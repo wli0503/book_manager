@@ -1,0 +1,6 @@
+<html>
+<% @publishers.each do |p| %>
+<%= link_to "#{p.name} -- #{p.desc}", p %><br>
+<% end %>
+<%= link_to "add", new_publisher_path %>
+</html>

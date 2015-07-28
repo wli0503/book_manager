@@ -1,0 +1,6 @@
+<html>
+<%= "#{@subgenre.name} -- #{@subgenre.desc}" %><br>
+<%= link_to "list", subgenres_path %><br>
+<%= link_to "edit", edit_subgenre_path %><br>
+<%= link_to "delete", @subgenre, :method => :delete, :data => {:confirm => "Are you sure?"} %><br>
+</html>

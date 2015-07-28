@@ -1,0 +1,15 @@
+<%=form_for @publisher do |p| %>
+  <div class = "container">
+    <div class = "textfield">
+      <%= p.label :name %>
+      <%= p.text_field :name %>
+    </div>
+
+    <div class = "textfield">
+      <%= p.label :desc %>
+      <%= p.text_field :desc %>
+    </div>
+
+    <%= p.submit %>
+<% end %>
+</div>

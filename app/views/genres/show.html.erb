@@ -1,0 +1,7 @@
+<html>
+<%= javascript_include_tag :defaults %>
+<%= "#{@genre.name} -- #{@genre.desc}" %>
+<%= link_to "List", genres_path %>
+<%= link_to "edit", edit_genre_path %>
+<%= link_to "delete", @genre, :method => :delete, :confirm => "Are you sure?" %>
+</html>

@@ -1,0 +1,6 @@
+<html>
+<% @authors.each do |a| %>
+  <%= link_to "#{a.first_name} -- #{a.last_name} -- #{a.DOB}", a %><br>
+<% end %>
+<p><%= link_to "Add", new_author_path %></p>
+</html>

@@ -1,0 +1,17 @@
+<div content= "container">
+  <%= form_for @book do |b| %>
+    <div content = "field">
+      <%= b.label :name %>
+      <%= b.text_field :name %>
+    </div>
+    <div content = "field">
+      <%= b.label :year %>
+      <%= b.text_field :year %>
+    </div>
+    <div content = "field">
+      <%= b.label :author %>
+      <%= b.collection_select :author_id, Author.all, :id, :name %>
+    </div>
+    <%= b.submit %>
+  <% end %>
+</div>

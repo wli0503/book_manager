@@ -1,0 +1,7 @@
+<html>
+  <% @subgenres.each do |s| %>
+    <%= link_to "#{s.name} -- #{s.desc}", s %>
+    <%= link_to "edit", edit_subgenre_path(s) %><br>
+  <% end %>
+  <%= link_to "Add", new_subgenre_path %>
+</html>

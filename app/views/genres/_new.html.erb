@@ -1,0 +1,13 @@
+<div class = "container">
+  <%= form_for @genre do |g| %>
+    <div class = "textfield">
+      <%= g.label :name %>
+      <%= g.text_field :name %>
+    </div>
+    <div class = "textfield">
+      <%= g.label :desc %>
+      <%= g.text_field :desc %>
+    </div>
+    <%= g.submit %>
+  <% end %>
+</div>

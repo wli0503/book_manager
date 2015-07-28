@@ -1,0 +1,13 @@
+<div content= "container">
+  <%= form_for @author do |b| %>
+    <div content = "field">
+      <%= b.label :name %>
+      <%= b.text_field :name %>
+    </div>
+    <div content = "field">
+      <%= b.label :DOB %>
+      <%= b.text_field :DOB %>
+    </div>
+    <%= b.submit %>
+  <% end %>
+</div>

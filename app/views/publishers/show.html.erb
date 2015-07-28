@@ -1,0 +1,6 @@
+<html>
+<%= javascript_include_tag :defaults %>
+<%= "#{@publisher.name} -- #{@publisher.desc}" %>
+<%= link_to "edit", edit_publisher_path %>
+<%= link_to "delete", @publisher, :method => :delete, :confirm => "Are you sure?"%>
+</html>
