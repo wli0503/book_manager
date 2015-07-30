@@ -1,5 +1,7 @@
+<% genre ||= @genre %>
+
 <div class = "container">
-  <%= form_for @genre do |g| %>
+  <%= form_for genre do |g| %>
     <div class = "textfield">
       <%= g.label :name %>
       <%= g.text_field :name %>

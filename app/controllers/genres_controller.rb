@@ -7,7 +7,7 @@ class GenresController < ApplicationController
 
   def create
     Genre.create!(params[:genre])
-    redirect_to genres_path
+    render 'index'
   end
 
   def edit
@@ -15,7 +15,7 @@ class GenresController < ApplicationController
 
   def update
     if @genre.update_attributes(params[:genre])
-      redirect_to genre_path
+      redirect_to genres_path
     else
       render 'edit'
     end
@@ -30,7 +30,6 @@ class GenresController < ApplicationController
 
   def destroy
     @genre.destroy
-    redirect_to genres_path
   end
 
   private

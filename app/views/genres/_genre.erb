@@ -1,0 +1,9 @@
+<%
+   genre ||= @genre
+%>
+
+<tr id = "<%= genre.id %>">
+  <td><%= link_to genre.name, edit_genre_path(genre), :remote => true %></td>
+  <td><%= genre.desc %></td>
+  <td><%= link_to "delete", genre, :method => :delete, :confirm => "Are you sure?" ,:remote => true%></td>
+</tr>

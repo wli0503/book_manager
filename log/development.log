@@ -34158,3 +34158,3333 @@ Processing by BooksController#destroy as JS
   [1m[35m (0.1ms)[0m  COMMIT
   Rendered books/destroy.js.erb (0.4ms)
 Completed 200 OK in 7ms (Views: 4.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/genres/" for 127.0.0.1 at 2015-07-30 16:06:56 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by GenresController#index as HTML
+  [1m[35mGenre Load (1.0ms)[0m  SELECT `genres`.* FROM `genres`
+  Rendered genres/_index.html.erb (7.0ms)
+  Rendered genres/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 80ms (Views: 68.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:06:56 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:06:56 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:06:56 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:06:56 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:06:56 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:06:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:06:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:06:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:06:56 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:06:56 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:06:56 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:06:56 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:06:56 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:06:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:06:56 -0400
+
+
+Started GET "/genres/new" for 127.0.0.1 at 2015-07-30 16:06:58 -0400
+Processing by GenresController#new as JS
+  Rendered genres/_form.erb (10.9ms)
+  Rendered genres/new.js.erb (14.2ms)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/genres/new" for 127.0.0.1 at 2015-07-30 16:07:02 -0400
+Processing by GenresController#new as JS
+  Rendered genres/_form.erb (1.4ms)
+  Rendered genres/new.js.erb (3.7ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/genres/new" for 127.0.0.1 at 2015-07-30 16:07:12 -0400
+Processing by GenresController#new as JS
+  Rendered genres/_form.erb (1.8ms)
+  Rendered genres/new.js.erb (6.7ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/genres/" for 127.0.0.1 at 2015-07-30 16:07:13 -0400
+Processing by GenresController#index as HTML
+  [1m[36mGenre Load (0.1ms)[0m  [1mSELECT `genres`.* FROM `genres`[0m
+  Rendered genres/_index.html.erb (0.8ms)
+  Rendered genres/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:07:13 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:07:13 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:07:13 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:07:13 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:07:13 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:07:13 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:07:13 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:07:13 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:07:13 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:07:13 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:07:13 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:07:13 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:07:13 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:07:13 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:07:13 -0400
+
+
+Started GET "/genres/new" for 127.0.0.1 at 2015-07-30 16:07:14 -0400
+Processing by GenresController#new as JS
+  Rendered genres/_form.erb (1.8ms)
+  Rendered genres/new.js.erb (4.9ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/genres/" for 127.0.0.1 at 2015-07-30 16:07:26 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by GenresController#index as HTML
+  [1m[35mGenre Load (0.1ms)[0m  SELECT `genres`.* FROM `genres`
+  Rendered genres/_index.html.erb (5.9ms)
+  Rendered genres/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 80ms (Views: 66.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/genres/" for 127.0.0.1 at 2015-07-30 16:07:31 -0400
+Processing by GenresController#index as HTML
+  [1m[36mGenre Load (0.1ms)[0m  [1mSELECT `genres`.* FROM `genres`[0m
+  Rendered genres/_index.html.erb (0.7ms)
+  Rendered genres/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:07:31 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:07:31 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:07:31 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:07:31 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:07:31 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:07:31 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:07:31 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:07:31 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:07:31 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:07:31 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:07:31 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:07:31 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:07:31 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:07:31 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:07:31 -0400
+
+
+Started GET "/genres/new" for 127.0.0.1 at 2015-07-30 16:07:32 -0400
+Processing by GenresController#new as JS
+  Rendered genres/_form.erb (11.4ms)
+  Rendered genres/new.js.erb (15.4ms)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:07:41 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:07:41 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:07:41 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:07:41 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:07:41 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:07:41 -0400
+
+
+Started GET "/genres/new" for 127.0.0.1 at 2015-07-30 16:07:43 -0400
+Processing by GenresController#new as JS
+  Rendered genres/_form.erb (1.6ms)
+  Rendered genres/new.js.erb (4.1ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/genres/" for 127.0.0.1 at 2015-07-30 16:09:41 -0400
+Processing by GenresController#index as HTML
+  [1m[35mGenre Load (0.3ms)[0m  SELECT `genres`.* FROM `genres`
+  Rendered genres/_index.html.erb (1.1ms)
+  Rendered genres/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:09:41 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:09:41 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:09:41 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:09:41 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:09:41 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:09:41 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:09:41 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:09:41 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:09:41 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:09:41 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:09:41 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:09:41 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:09:41 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:09:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:09:41 -0400
+
+
+Started GET "/genres/new" for 127.0.0.1 at 2015-07-30 16:09:42 -0400
+Processing by GenresController#new as JS
+  Rendered genres/_form.erb (1.9ms)
+  Rendered genres/new.js.erb (5.3ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/genres/new" for 127.0.0.1 at 2015-07-30 16:09:43 -0400
+Processing by GenresController#new as JS
+  Rendered genres/_form.erb (1.3ms)
+  Rendered genres/new.js.erb (3.6ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/genres/new" for 127.0.0.1 at 2015-07-30 16:09:44 -0400
+Processing by GenresController#new as JS
+  Rendered genres/_form.erb (1.4ms)
+  Rendered genres/new.js.erb (3.8ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/genres/new" for 127.0.0.1 at 2015-07-30 16:09:45 -0400
+Processing by GenresController#new as JS
+  Rendered genres/_form.erb (1.3ms)
+  Rendered genres/new.js.erb (3.5ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/genres/new" for 127.0.0.1 at 2015-07-30 16:09:45 -0400
+Processing by GenresController#new as JS
+  Rendered genres/_form.erb (1.2ms)
+  Rendered genres/new.js.erb (3.6ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/genres/" for 127.0.0.1 at 2015-07-30 16:10:23 -0400
+Processing by GenresController#index as HTML
+  [1m[36mGenre Load (0.1ms)[0m  [1mSELECT `genres`.* FROM `genres`[0m
+  Rendered genres/_index.html.erb (0.7ms)
+  Rendered genres/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:10:24 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:10:24 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:10:24 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:10:24 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:10:24 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:10:24 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:10:24 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:10:24 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:10:24 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:10:24 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:10:24 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:10:24 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:10:24 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:10:24 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:10:24 -0400
+
+
+Started GET "/genres/new" for 127.0.0.1 at 2015-07-30 16:10:24 -0400
+Processing by GenresController#new as JS
+  Rendered genres/_form.erb (1.4ms)
+  Rendered genres/new.js.erb (4.8ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/genres/new" for 127.0.0.1 at 2015-07-30 16:10:25 -0400
+Processing by GenresController#new as JS
+  Rendered genres/_form.erb (1.8ms)
+  Rendered genres/new.js.erb (5.1ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/genres/new" for 127.0.0.1 at 2015-07-30 16:10:26 -0400
+Processing by GenresController#new as JS
+  Rendered genres/_form.erb (1.3ms)
+  Rendered genres/new.js.erb (3.6ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/genres/" for 127.0.0.1 at 2015-07-30 16:10:59 -0400
+Processing by GenresController#index as HTML
+  [1m[35mGenre Load (0.1ms)[0m  SELECT `genres`.* FROM `genres`
+  Rendered genres/_index.html.erb (0.7ms)
+  Rendered genres/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:10:59 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:10:59 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:10:59 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:10:59 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:10:59 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:10:59 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:10:59 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:10:59 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:10:59 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:10:59 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:10:59 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:10:59 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:10:59 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:10:59 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:10:59 -0400
+
+
+Started GET "/genres/new" for 127.0.0.1 at 2015-07-30 16:11:00 -0400
+Processing by GenresController#new as JS
+  Rendered genres/_form.erb (1.4ms)
+  Rendered genres/new.js.erb (4.5ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/genres/" for 127.0.0.1 at 2015-07-30 16:12:08 -0400
+Processing by GenresController#index as HTML
+  [1m[36mGenre Load (0.1ms)[0m  [1mSELECT `genres`.* FROM `genres`[0m
+  Rendered genres/_index.html.erb (0.7ms)
+  Rendered genres/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:12:09 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:12:09 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:12:09 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:12:09 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:12:09 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:12:09 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:12:09 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:12:09 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:12:09 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:12:09 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:12:09 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:12:09 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:12:09 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:12:09 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:12:09 -0400
+
+
+Started GET "/genres/new" for 127.0.0.1 at 2015-07-30 16:12:09 -0400
+Processing by GenresController#new as JS
+  Rendered genres/_form.erb (1.9ms)
+  Rendered genres/new.js.erb (6.2ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/genres" for 127.0.0.1 at 2015-07-30 16:12:13 -0400
+Processing by GenresController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GFR+vHZNQQXEaTbzD1WzQB21x8Z5NUmrgcjtQntMWno=", "genre"=>{"name"=>"test", "desc"=>"test"}, "commit"=>"Create Genre"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `genres` (`created_at`, `desc`, `name`, `updated_at`) VALUES ('2015-07-30 20:12:13', 'test', 'test', '2015-07-30 20:12:13')[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://127.0.0.1:3000/genres
+Completed 302 Found in 4ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/genres" for 127.0.0.1 at 2015-07-30 16:12:13 -0400
+Processing by GenresController#index as HTML
+  [1m[36mGenre Load (0.3ms)[0m  [1mSELECT `genres`.* FROM `genres`[0m
+  Rendered genres/_index.html.erb (1.3ms)
+  Rendered genres/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:12:13 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:12:13 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:12:13 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:12:13 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:12:13 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:12:13 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:12:13 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:12:13 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:12:13 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:12:13 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:12:13 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:12:13 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:12:13 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:12:13 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:12:13 -0400
+
+
+Started GET "/genres" for 127.0.0.1 at 2015-07-30 16:12:56 -0400
+Processing by GenresController#index as HTML
+  [1m[35mGenre Load (0.1ms)[0m  SELECT `genres`.* FROM `genres`
+  Rendered genres/_index.html.erb (0.7ms)
+  Rendered genres/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:12:57 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:12:57 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:12:57 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:12:57 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:12:57 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:12:57 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:12:57 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:12:57 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:12:57 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:12:57 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:12:57 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:12:57 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:12:57 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:12:57 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:12:57 -0400
+
+
+Started GET "/genres/new" for 127.0.0.1 at 2015-07-30 16:12:57 -0400
+Processing by GenresController#new as JS
+  Rendered genres/_form.erb (2.1ms)
+  Rendered genres/new.js.erb (5.3ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/genres" for 127.0.0.1 at 2015-07-30 16:13:06 -0400
+Processing by GenresController#index as HTML
+  [1m[36mGenre Load (0.2ms)[0m  [1mSELECT `genres`.* FROM `genres`[0m
+  Rendered genres/_index.html.erb (1.6ms)
+  Rendered genres/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:13:06 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:13:06 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:13:06 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:13:06 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:13:06 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:13:06 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:06 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:06 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:06 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:06 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:06 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:06 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:06 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:06 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:06 -0400
+
+
+Started GET "/genres/new" for 127.0.0.1 at 2015-07-30 16:13:06 -0400
+Processing by GenresController#new as JS
+  Rendered genres/_form.erb (1.5ms)
+  Rendered genres/new.js.erb (5.3ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/genres" for 127.0.0.1 at 2015-07-30 16:13:10 -0400
+Processing by GenresController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GFR+vHZNQQXEaTbzD1WzQB21x8Z5NUmrgcjtQntMWno=", "genre"=>{"name"=>"def", "desc"=>"def"}, "commit"=>"Create Genre"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `genres` (`created_at`, `desc`, `name`, `updated_at`) VALUES ('2015-07-30 20:13:10', 'def', 'def', '2015-07-30 20:13:10')[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://127.0.0.1:3000/genres
+Completed 302 Found in 3ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/genres" for 127.0.0.1 at 2015-07-30 16:13:10 -0400
+Processing by GenresController#index as HTML
+  [1m[36mGenre Load (0.2ms)[0m  [1mSELECT `genres`.* FROM `genres`[0m
+  Rendered genres/_index.html.erb (1.0ms)
+  Rendered genres/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:13:10 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:13:10 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:13:10 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:13:10 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:13:10 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:13:10 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:10 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:10 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:10 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:10 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:10 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:10 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:10 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:10 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:10 -0400
+
+
+Started GET "/genres/6" for 127.0.0.1 at 2015-07-30 16:13:11 -0400
+Processing by GenresController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mGenre Load (0.2ms)[0m  SELECT `genres`.* FROM `genres` WHERE `genres`.`id` = 6 LIMIT 1
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_genres_show_html_erb___1817021035867533828_70232805039040 at /Users/wenli/Documents/wenli/training/book_manager/app/views/genres/show.html.erb:15)
+  Rendered genres/show.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/javascripts/defaults.js" for 127.0.0.1 at 2015-07-30 16:13:11 -0400
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/defaults.js"):
+  actionpack (4.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.7) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.7) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.7) lib/rails/engine.rb:511:in `call'
+  railties (4.0.7) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/wenli/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/wenli/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/wenli/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (24.3ms)
+
+
+Started GET "/genres" for 127.0.0.1 at 2015-07-30 16:13:33 -0400
+Processing by GenresController#index as HTML
+  [1m[36mGenre Load (0.2ms)[0m  [1mSELECT `genres`.* FROM `genres`[0m
+  Rendered genres/_index.html.erb (2.1ms)
+  Rendered genres/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:13:33 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:13:33 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:13:33 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:13:33 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:13:33 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:13:33 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:33 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:33 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:33 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:33 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:33 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:33 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:33 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:33 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:33 -0400
+
+
+Started GET "/genres/4/edit" for 127.0.0.1 at 2015-07-30 16:13:34 -0400
+Processing by GenresController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mGenre Load (0.2ms)[0m  SELECT `genres`.* FROM `genres` WHERE `genres`.`id` = 4 LIMIT 1
+  Rendered genres/_form.erb (2.2ms)
+  Rendered genres/edit.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/genres" for 127.0.0.1 at 2015-07-30 16:13:56 -0400
+Processing by GenresController#index as HTML
+  [1m[36mGenre Load (0.1ms)[0m  [1mSELECT `genres`.* FROM `genres`[0m
+  Rendered genres/_index.html.erb (1.4ms)
+  Rendered genres/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:13:56 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:13:56 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:13:56 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:13:56 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:13:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:56 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:13:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:56 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:56 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:56 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:56 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:56 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:13:56 -0400
+
+
+Started GET "/genres/4/edit" for 127.0.0.1 at 2015-07-30 16:13:56 -0400
+Processing by GenresController#edit as JS
+  Parameters: {"id"=>"4"}
+  [1m[35mGenre Load (0.2ms)[0m  SELECT `genres`.* FROM `genres` WHERE `genres`.`id` = 4 LIMIT 1
+  Rendered genres/_form.erb (3.0ms)
+  Rendered genres/edit.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/genres/4/edit" for 127.0.0.1 at 2015-07-30 16:13:57 -0400
+Processing by GenresController#edit as JS
+  Parameters: {"id"=>"4"}
+  [1m[36mGenre Load (0.1ms)[0m  [1mSELECT `genres`.* FROM `genres` WHERE `genres`.`id` = 4 LIMIT 1[0m
+  Rendered genres/_form.erb (1.7ms)
+  Rendered genres/edit.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/genres/new" for 127.0.0.1 at 2015-07-30 16:14:03 -0400
+Processing by GenresController#new as JS
+  Rendered genres/_form.erb (1.3ms)
+  Rendered genres/new.js.erb (3.8ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/genres/new" for 127.0.0.1 at 2015-07-30 16:14:03 -0400
+Processing by GenresController#new as JS
+  Rendered genres/_form.erb (1.5ms)
+  Rendered genres/new.js.erb (4.2ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/genres" for 127.0.0.1 at 2015-07-30 16:16:25 -0400
+Processing by GenresController#index as HTML
+  [1m[35mGenre Load (0.2ms)[0m  SELECT `genres`.* FROM `genres`
+  Rendered genres/_index.html.erb (1.2ms)
+  Rendered genres/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:16:25 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:16:25 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:16:25 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:16:25 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:16:25 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:16:25 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:16:25 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:16:25 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:16:25 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:16:25 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:16:25 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:16:25 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:16:25 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:16:25 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:16:25 -0400
+
+
+Started GET "/genres" for 127.0.0.1 at 2015-07-30 16:16:52 -0400
+Processing by GenresController#index as HTML
+  [1m[36mGenre Load (0.1ms)[0m  [1mSELECT `genres`.* FROM `genres`[0m
+  Rendered genres/_index.html.erb (1.0ms)
+  Rendered genres/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:16:52 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:16:52 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:16:52 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:16:52 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:16:52 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:16:52 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:16:52 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:16:52 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:16:52 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:16:52 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:16:52 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:16:52 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:16:52 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:16:52 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:16:52 -0400
+
+
+Started GET "/genres/4/edit" for 127.0.0.1 at 2015-07-30 16:16:53 -0400
+Processing by GenresController#edit as JS
+  Parameters: {"id"=>"4"}
+  [1m[35mGenre Load (0.1ms)[0m  SELECT `genres`.* FROM `genres` WHERE `genres`.`id` = 4 LIMIT 1
+  Rendered genres/_form.erb (6.3ms)
+  Rendered genres/edit.js.erb (9.7ms)
+Completed 200 OK in 15ms (Views: 13.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/genres" for 127.0.0.1 at 2015-07-30 16:17:19 -0400
+Processing by GenresController#index as HTML
+  [1m[36mGenre Load (0.2ms)[0m  [1mSELECT `genres`.* FROM `genres`[0m
+  Rendered genres/_index.html.erb (1.3ms)
+  Rendered genres/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:17:19 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:17:19 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:17:19 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:17:19 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:17:19 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:17:19 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:19 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:19 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:19 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:19 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:19 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:19 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:19 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:19 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:19 -0400
+
+
+Started GET "/genres/4/edit" for 127.0.0.1 at 2015-07-30 16:17:20 -0400
+Processing by GenresController#edit as JS
+  Parameters: {"id"=>"4"}
+  [1m[35mGenre Load (0.1ms)[0m  SELECT `genres`.* FROM `genres` WHERE `genres`.`id` = 4 LIMIT 1
+  Rendered genres/_form.erb (1.5ms)
+  Rendered genres/edit.js.erb (4.9ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/genres/4" for 127.0.0.1 at 2015-07-30 16:17:25 -0400
+Processing by GenresController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GFR+vHZNQQXEaTbzD1WzQB21x8Z5NUmrgcjtQntMWno=", "genre"=>{"name"=>"Al", "desc"=>"test"}, "commit"=>"Update Genre", "id"=>"4"}
+  [1m[36mGenre Load (0.1ms)[0m  [1mSELECT `genres`.* FROM `genres` WHERE `genres`.`id` = 4 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE `genres` SET `desc` = 'test', `updated_at` = '2015-07-30 20:17:25' WHERE `genres`.`id` = 4[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://127.0.0.1:3000/genres/4
+Completed 302 Found in 4ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/genres/4" for 127.0.0.1 at 2015-07-30 16:17:25 -0400
+Processing by GenresController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mGenre Load (0.3ms)[0m  [1mSELECT `genres`.* FROM `genres` WHERE `genres`.`id` = 4 LIMIT 1[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_genres_show_html_erb___1817021035867533828_70232805102980 at /Users/wenli/Documents/wenli/training/book_manager/app/views/genres/show.html.erb:15)
+  Rendered genres/show.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:17:25 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:17:25 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:17:25 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:17:25 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:17:25 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:17:25 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:25 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:25 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:25 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:25 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:25 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:25 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:25 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:25 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:25 -0400
+
+
+Started GET "/javascripts/defaults.js" for 127.0.0.1 at 2015-07-30 16:17:25 -0400
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/defaults.js"):
+  actionpack (4.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.7) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.7) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.7) lib/rails/engine.rb:511:in `call'
+  railties (4.0.7) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/wenli/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/wenli/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/wenli/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.7ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (22.6ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.3ms)[0m  SELECT `books`.* FROM `books`
+  [1m[36mAuthor Load (0.2ms)[0m  [1mSELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 5 LIMIT 1[0m
+  [1m[35mSubgenre Load (0.1ms)[0m  SELECT `subgenres`.* FROM `subgenres` WHERE `subgenres`.`id` = 6 LIMIT 1
+  [1m[36mPublisher Load (0.1ms)[0m  [1mSELECT `publishers`.* FROM `publishers` WHERE `publishers`.`id` = 3 LIMIT 1[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_books__book_erb__4429487741972814486_70232803743400 at /Users/wenli/Documents/wenli/training/book_manager/app/views/books/_book.erb:8)
+  Rendered books/_book.erb (35.5ms)
+  Rendered books/_index.html.erb (47.1ms)
+  Rendered books/index.html.erb within layouts/application (47.9ms)
+Completed 200 OK in 58ms (Views: 45.7ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.1ms)[0m  SELECT `books`.* FROM `books`
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 5 LIMIT 1[0m
+  [1m[35mSubgenre Load (0.1ms)[0m  SELECT `subgenres`.* FROM `subgenres` WHERE `subgenres`.`id` = 6 LIMIT 1
+  [1m[36mPublisher Load (0.1ms)[0m  [1mSELECT `publishers`.* FROM `publishers` WHERE `publishers`.`id` = 3 LIMIT 1[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_books__book_erb__4429487741972814486_70232803743400 at /Users/wenli/Documents/wenli/training/book_manager/app/views/books/_book.erb:8)
+  Rendered books/_book.erb (3.0ms)
+  Rendered books/_index.html.erb (4.2ms)
+  Rendered books/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:17:58 -0400
+
+
+Started GET "/books/new" for 127.0.0.1 at 2015-07-30 16:18:00 -0400
+Processing by BooksController#new as JS
+  [1m[35mAuthor Load (0.1ms)[0m  SELECT `authors`.* FROM `authors`
+  [1m[36mSubgenre Load (0.1ms)[0m  [1mSELECT `subgenres`.* FROM `subgenres`[0m
+  [1m[35mPublisher Load (0.1ms)[0m  SELECT `publishers`.* FROM `publishers`
+  Rendered books/_form.erb (5.1ms)
+  Rendered books/new.js.erb (7.8ms)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/books/10/edit" for 127.0.0.1 at 2015-07-30 16:18:02 -0400
+Processing by BooksController#edit as JS
+  Parameters: {"id"=>"10"}
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT `books`.* FROM `books` WHERE `books`.`id` = 10 LIMIT 1[0m
+  [1m[35mAuthor Load (0.1ms)[0m  SELECT `authors`.* FROM `authors`
+  [1m[36mSubgenre Load (0.1ms)[0m  [1mSELECT `subgenres`.* FROM `subgenres`[0m
+  [1m[35mPublisher Load (0.1ms)[0m  SELECT `publishers`.* FROM `publishers`
+  Rendered books/_form.erb (3.8ms)
+  Rendered books/edit.js.erb (6.5ms)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.5ms)
+
+
+Started PATCH "/books/10" for 127.0.0.1 at 2015-07-30 16:18:06 -0400
+Processing by BooksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GFR+vHZNQQXEaTbzD1WzQB21x8Z5NUmrgcjtQntMWno=", "book"=>{"name"=>"Shining", "year"=>"1979", "author_id"=>"5", "subgenre_id"=>"6", "publisher_id"=>"3"}, "commit"=>"Update Book", "id"=>"10"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT `books`.* FROM `books` WHERE `books`.`id` = 10 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `books` SET `year` = '1979', `updated_at` = '2015-07-30 20:18:06' WHERE `books`.`id` = 10[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://127.0.0.1:3000/books
+Completed 302 Found in 4ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-07-30 16:18:06 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT `books`.* FROM `books`[0m
+  [1m[35mAuthor Load (0.1ms)[0m  SELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 5 LIMIT 1
+  [1m[36mSubgenre Load (0.1ms)[0m  [1mSELECT `subgenres`.* FROM `subgenres` WHERE `subgenres`.`id` = 6 LIMIT 1[0m
+  [1m[35mPublisher Load (0.1ms)[0m  SELECT `publishers`.* FROM `publishers` WHERE `publishers`.`id` = 3 LIMIT 1
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_books__book_erb__4429487741972814486_70232803743400 at /Users/wenli/Documents/wenli/training/book_manager/app/views/books/_book.erb:8)
+  Rendered books/_book.erb (2.5ms)
+  Rendered books/_index.html.erb (3.6ms)
+  Rendered books/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:18:06 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:18:06 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:18:06 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:18:06 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:18:06 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:18:06 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:18:06 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:18:06 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:18:06 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:18:06 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:18:06 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:18:06 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:18:06 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:18:06 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:18:06 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2015-07-30 16:18:29 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT `books`.* FROM `books`[0m
+  [1m[35mAuthor Load (0.1ms)[0m  SELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 5 LIMIT 1
+  [1m[36mSubgenre Load (0.1ms)[0m  [1mSELECT `subgenres`.* FROM `subgenres` WHERE `subgenres`.`id` = 6 LIMIT 1[0m
+  [1m[35mPublisher Load (0.1ms)[0m  SELECT `publishers`.* FROM `publishers` WHERE `publishers`.`id` = 3 LIMIT 1
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_books__book_erb__4429487741972814486_70232803743400 at /Users/wenli/Documents/wenli/training/book_manager/app/views/books/_book.erb:8)
+  Rendered books/_book.erb (28.6ms)
+  Rendered books/_index.html.erb (44.5ms)
+  Rendered books/index.html.erb within layouts/application (45.0ms)
+Completed 200 OK in 54ms (Views: 43.0ms | ActiveRecord: 7.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:18:29 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:18:29 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:18:29 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:18:29 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:18:29 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:18:29 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:18:29 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:18:29 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:18:29 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:18:29 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:18:29 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:18:29 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:18:29 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:18:29 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:18:29 -0400
+
+
+Started GET "/books/10/edit" for 127.0.0.1 at 2015-07-30 16:18:30 -0400
+Processing by BooksController#edit as JS
+  Parameters: {"id"=>"10"}
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT `books`.* FROM `books` WHERE `books`.`id` = 10 LIMIT 1[0m
+  [1m[35mAuthor Load (0.1ms)[0m  SELECT `authors`.* FROM `authors`
+  [1m[36mSubgenre Load (0.1ms)[0m  [1mSELECT `subgenres`.* FROM `subgenres`[0m
+  [1m[35mPublisher Load (0.1ms)[0m  SELECT `publishers`.* FROM `publishers`
+  Rendered books/_form.erb (5.8ms)
+  Rendered books/edit.js.erb (8.6ms)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.6ms)
+
+
+Started PATCH "/books/10" for 127.0.0.1 at 2015-07-30 16:18:37 -0400
+Processing by BooksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GFR+vHZNQQXEaTbzD1WzQB21x8Z5NUmrgcjtQntMWno=", "book"=>{"name"=>"Shining", "year"=>"1980", "author_id"=>"5", "subgenre_id"=>"6", "publisher_id"=>"3"}, "commit"=>"Update Book", "id"=>"10"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT `books`.* FROM `books` WHERE `books`.`id` = 10 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE `books` SET `year` = '1980', `updated_at` = '2015-07-30 20:18:37' WHERE `books`.`id` = 10[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  Rendered books/_index.html.erb (1.6ms)
+  Rendered books/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error ('nil' is not an ActiveModel-compatible object. It must implement :to_partial_path.):
+    11:   <th></th>
+    12: </tr>
+    13:     </thead>
+    14:   <tbody> <%= render @books %>
+    15:   </tbody>
+    16: 
+    17:   </table>
+  app/views/books/_index.html.erb:14:in `_app_views_books__index_html_erb__4381290096834778036_70232804445040'
+  app/views/books/index.html.erb:2:in `_app_views_books_index_html_erb___2361139707316151915_70232804510640'
+  app/controllers/books_controller.rb:19:in `update'
+
+
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.8ms)
+
+
+Started PATCH "/books/10" for 127.0.0.1 at 2015-07-30 16:19:02 -0400
+Processing by BooksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GFR+vHZNQQXEaTbzD1WzQB21x8Z5NUmrgcjtQntMWno=", "book"=>{"name"=>"Shining", "year"=>"1980", "author_id"=>"5", "subgenre_id"=>"6", "publisher_id"=>"3"}, "commit"=>"Update Book", "id"=>"10"}
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT `books`.* FROM `books` WHERE `books`.`id` = 10 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Completed 500 Internal Server Error in 20ms
+
+NameError (undefined local variable or method `books' for #<BooksController:0x007fc0b2bf94e0>):
+  app/controllers/books_controller.rb:19:in `update'
+
+
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.6ms)
+
+
+Started PATCH "/books/10" for 127.0.0.1 at 2015-07-30 16:19:10 -0400
+Processing by BooksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GFR+vHZNQQXEaTbzD1WzQB21x8Z5NUmrgcjtQntMWno=", "book"=>{"name"=>"Shining", "year"=>"1980", "author_id"=>"5", "subgenre_id"=>"6", "publisher_id"=>"3"}, "commit"=>"Update Book", "id"=>"10"}
+  [1m[35mBook Load (0.1ms)[0m  SELECT `books`.* FROM `books` WHERE `books`.`id` = 10 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://127.0.0.1:3000/books
+Completed 302 Found in 16ms (ActiveRecord: 3.9ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-07-30 16:19:10 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT `books`.* FROM `books`[0m
+  [1m[35mAuthor Load (0.1ms)[0m  SELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 5 LIMIT 1
+  [1m[36mSubgenre Load (0.1ms)[0m  [1mSELECT `subgenres`.* FROM `subgenres` WHERE `subgenres`.`id` = 6 LIMIT 1[0m
+  [1m[35mPublisher Load (0.1ms)[0m  SELECT `publishers`.* FROM `publishers` WHERE `publishers`.`id` = 3 LIMIT 1
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_books__book_erb__4429487741972814486_70232803743400 at /Users/wenli/Documents/wenli/training/book_manager/app/views/books/_book.erb:8)
+  Rendered books/_book.erb (28.8ms)
+  Rendered books/_index.html.erb (30.2ms)
+  Rendered books/index.html.erb within layouts/application (30.8ms)
+Completed 200 OK in 38ms (Views: 32.5ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:19:10 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:19:10 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:19:10 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:19:10 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:19:10 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:19:10 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:19:10 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:19:10 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:19:10 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:19:10 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:19:10 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:19:10 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:19:10 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:19:10 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:19:10 -0400
+
+
+Started GET "/books/10/edit" for 127.0.0.1 at 2015-07-30 16:20:27 -0400
+Processing by BooksController#edit as JS
+  Parameters: {"id"=>"10"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT `books`.* FROM `books` WHERE `books`.`id` = 10 LIMIT 1[0m
+  [1m[35mAuthor Load (0.1ms)[0m  SELECT `authors`.* FROM `authors`
+  [1m[36mSubgenre Load (0.1ms)[0m  [1mSELECT `subgenres`.* FROM `subgenres`[0m
+  [1m[35mPublisher Load (0.1ms)[0m  SELECT `publishers`.* FROM `publishers`
+  Rendered books/_form.erb (3.8ms)
+  Rendered books/edit.js.erb (6.2ms)
+Completed 200 OK in 11ms (Views: 9.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/books/10/edit" for 127.0.0.1 at 2015-07-30 16:20:28 -0400
+Processing by BooksController#edit as JS
+  Parameters: {"id"=>"10"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT `books`.* FROM `books` WHERE `books`.`id` = 10 LIMIT 1[0m
+  [1m[35mAuthor Load (0.1ms)[0m  SELECT `authors`.* FROM `authors`
+  [1m[36mSubgenre Load (0.1ms)[0m  [1mSELECT `subgenres`.* FROM `subgenres`[0m
+  [1m[35mPublisher Load (0.1ms)[0m  SELECT `publishers`.* FROM `publishers`
+  Rendered books/_form.erb (3.6ms)
+  Rendered books/edit.js.erb (5.9ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-07-30 16:20:29 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT `books`.* FROM `books`[0m
+  [1m[35mAuthor Load (0.1ms)[0m  SELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 5 LIMIT 1
+  [1m[36mSubgenre Load (0.1ms)[0m  [1mSELECT `subgenres`.* FROM `subgenres` WHERE `subgenres`.`id` = 6 LIMIT 1[0m
+  [1m[35mPublisher Load (0.1ms)[0m  SELECT `publishers`.* FROM `publishers` WHERE `publishers`.`id` = 3 LIMIT 1
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_books__book_erb__4429487741972814486_70232805120420 at /Users/wenli/Documents/wenli/training/book_manager/app/views/books/_book.erb:8)
+  Rendered books/_book.erb (2.8ms)
+  Rendered books/_index.html.erb (4.1ms)
+  Rendered books/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2015-07-30 16:20:30 -0400
+Processing by BooksController#new as JS
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT `authors`.* FROM `authors`[0m
+  [1m[35mSubgenre Load (0.2ms)[0m  SELECT `subgenres`.* FROM `subgenres`
+  [1m[36mPublisher Load (0.1ms)[0m  [1mSELECT `publishers`.* FROM `publishers`[0m
+  Rendered books/_form.erb (4.2ms)
+  Rendered books/new.js.erb (6.7ms)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-07-30 16:20:30 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.1ms)[0m  SELECT `books`.* FROM `books`
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 5 LIMIT 1[0m
+  [1m[35mSubgenre Load (0.1ms)[0m  SELECT `subgenres`.* FROM `subgenres` WHERE `subgenres`.`id` = 6 LIMIT 1
+  [1m[36mPublisher Load (0.1ms)[0m  [1mSELECT `publishers`.* FROM `publishers` WHERE `publishers`.`id` = 3 LIMIT 1[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_books__book_erb__4429487741972814486_70232805120420 at /Users/wenli/Documents/wenli/training/book_manager/app/views/books/_book.erb:8)
+  Rendered books/_book.erb (2.9ms)
+  Rendered books/_index.html.erb (4.1ms)
+  Rendered books/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/books/10/edit" for 127.0.0.1 at 2015-07-30 16:20:37 -0400
+Processing by BooksController#edit as JS
+  Parameters: {"id"=>"10"}
+  [1m[35mBook Load (0.1ms)[0m  SELECT `books`.* FROM `books` WHERE `books`.`id` = 10 LIMIT 1
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT `authors`.* FROM `authors`[0m
+  [1m[35mSubgenre Load (0.1ms)[0m  SELECT `subgenres`.* FROM `subgenres`
+  [1m[36mPublisher Load (0.1ms)[0m  [1mSELECT `publishers`.* FROM `publishers`[0m
+  Rendered books/_form.erb (3.8ms)
+  Rendered books/edit.js.erb (6.3ms)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-07-30 16:20:38 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.1ms)[0m  SELECT `books`.* FROM `books`
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 5 LIMIT 1[0m
+  [1m[35mSubgenre Load (0.1ms)[0m  SELECT `subgenres`.* FROM `subgenres` WHERE `subgenres`.`id` = 6 LIMIT 1
+  [1m[36mPublisher Load (0.1ms)[0m  [1mSELECT `publishers`.* FROM `publishers` WHERE `publishers`.`id` = 3 LIMIT 1[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_books__book_erb__4429487741972814486_70232805120420 at /Users/wenli/Documents/wenli/training/book_manager/app/views/books/_book.erb:8)
+  Rendered books/_book.erb (3.8ms)
+  Rendered books/_index.html.erb (5.1ms)
+  Rendered books/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/books/10/edit" for 127.0.0.1 at 2015-07-30 16:20:45 -0400
+Processing by BooksController#edit as JS
+  Parameters: {"id"=>"10"}
+  [1m[35mBook Load (0.1ms)[0m  SELECT `books`.* FROM `books` WHERE `books`.`id` = 10 LIMIT 1
+  [1m[36mAuthor Load (0.1ms)[0m  [1mSELECT `authors`.* FROM `authors`[0m
+  [1m[35mSubgenre Load (0.1ms)[0m  SELECT `subgenres`.* FROM `subgenres`
+  [1m[36mPublisher Load (0.1ms)[0m  [1mSELECT `publishers`.* FROM `publishers`[0m
+  Rendered books/_form.erb (3.6ms)
+  Rendered books/edit.js.erb (5.9ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2015-07-30 16:20:46 -0400
+Processing by BooksController#new as JS
+  [1m[35mAuthor Load (0.1ms)[0m  SELECT `authors`.* FROM `authors`
+  [1m[36mSubgenre Load (0.1ms)[0m  [1mSELECT `subgenres`.* FROM `subgenres`[0m
+  [1m[35mPublisher Load (0.1ms)[0m  SELECT `publishers`.* FROM `publishers`
+  Rendered books/_form.erb (3.6ms)
+  Rendered books/new.js.erb (6.2ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-07-30 16:20:48 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT `books`.* FROM `books`[0m
+  [1m[35mAuthor Load (0.1ms)[0m  SELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 5 LIMIT 1
+  [1m[36mSubgenre Load (0.1ms)[0m  [1mSELECT `subgenres`.* FROM `subgenres` WHERE `subgenres`.`id` = 6 LIMIT 1[0m
+  [1m[35mPublisher Load (0.1ms)[0m  SELECT `publishers`.* FROM `publishers` WHERE `publishers`.`id` = 3 LIMIT 1
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_books__book_erb__4429487741972814486_70232805120420 at /Users/wenli/Documents/wenli/training/book_manager/app/views/books/_book.erb:8)
+  Rendered books/_book.erb (2.4ms)
+  Rendered books/_index.html.erb (3.5ms)
+  Rendered books/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/books/10" for 127.0.0.1 at 2015-07-30 16:20:54 -0400
+Processing by BooksController#destroy as JS
+  Parameters: {"id"=>"10"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT `books`.* FROM `books` WHERE `books`.`id` = 10 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM `books` WHERE `books`.`id` = 10[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  Rendered books/destroy.js.erb (0.3ms)
+Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2015-07-30 16:20:55 -0400
+Processing by BooksController#new as JS
+  [1m[36mAuthor Load (0.2ms)[0m  [1mSELECT `authors`.* FROM `authors`[0m
+  [1m[35mSubgenre Load (0.1ms)[0m  SELECT `subgenres`.* FROM `subgenres`
+  [1m[36mPublisher Load (0.1ms)[0m  [1mSELECT `publishers`.* FROM `publishers`[0m
+  Rendered books/_form.erb (4.1ms)
+  Rendered books/new.js.erb (6.6ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2015-07-30 16:21:01 -0400
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GFR+vHZNQQXEaTbzD1WzQB21x8Z5NUmrgcjtQntMWno=", "book"=>{"name"=>"Fred", "year"=>"1970", "author_id"=>"5", "subgenre_id"=>"6", "publisher_id"=>"3"}, "commit"=>"Create Book"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `books` (`author_id`, `created_at`, `name`, `publisher_id`, `subgenre_id`, `updated_at`, `year`) VALUES (5, '2015-07-30 20:21:01', 'Fred', 3, 6, '2015-07-30 20:21:01', '1970')[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://127.0.0.1:3000/books
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-07-30 16:21:01 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT `books`.* FROM `books`[0m
+  [1m[35mAuthor Load (0.1ms)[0m  SELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 5 LIMIT 1
+  [1m[36mSubgenre Load (0.1ms)[0m  [1mSELECT `subgenres`.* FROM `subgenres` WHERE `subgenres`.`id` = 6 LIMIT 1[0m
+  [1m[35mPublisher Load (0.1ms)[0m  SELECT `publishers`.* FROM `publishers` WHERE `publishers`.`id` = 3 LIMIT 1
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_books__book_erb__4429487741972814486_70232803743400 at /Users/wenli/Documents/wenli/training/book_manager/app/views/books/_book.erb:8)
+  Rendered books/_book.erb (3.7ms)
+  Rendered books/_index.html.erb (5.1ms)
+  Rendered books/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:21:01 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:21:01 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:21:01 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:21:01 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:21:01 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:21:01 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:21:01 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:21:01 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:21:01 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:21:01 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:21:01 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:21:01 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:21:01 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:21:01 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:21:01 -0400
+
+
+Started GET "/books/12/edit" for 127.0.0.1 at 2015-07-30 16:21:03 -0400
+Processing by BooksController#edit as JS
+  Parameters: {"id"=>"12"}
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT `books`.* FROM `books` WHERE `books`.`id` = 12 LIMIT 1[0m
+  [1m[35mAuthor Load (0.1ms)[0m  SELECT `authors`.* FROM `authors`
+  [1m[36mSubgenre Load (0.1ms)[0m  [1mSELECT `subgenres`.* FROM `subgenres`[0m
+  [1m[35mPublisher Load (0.1ms)[0m  SELECT `publishers`.* FROM `publishers`
+  Rendered books/_form.erb (4.5ms)
+  Rendered books/edit.js.erb (6.8ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/books/12/edit" for 127.0.0.1 at 2015-07-30 16:21:03 -0400
+Processing by BooksController#edit as JS
+  Parameters: {"id"=>"12"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT `books`.* FROM `books` WHERE `books`.`id` = 12 LIMIT 1[0m
+  [1m[35mAuthor Load (0.1ms)[0m  SELECT `authors`.* FROM `authors`
+  [1m[36mSubgenre Load (0.1ms)[0m  [1mSELECT `subgenres`.* FROM `subgenres`[0m
+  [1m[35mPublisher Load (0.1ms)[0m  SELECT `publishers`.* FROM `publishers`
+  Rendered books/_form.erb (3.9ms)
+  Rendered books/edit.js.erb (6.6ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-07-30 16:21:05 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT `books`.* FROM `books`[0m
+  [1m[35mAuthor Load (0.1ms)[0m  SELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 5 LIMIT 1
+  [1m[36mSubgenre Load (0.1ms)[0m  [1mSELECT `subgenres`.* FROM `subgenres` WHERE `subgenres`.`id` = 6 LIMIT 1[0m
+  [1m[35mPublisher Load (0.1ms)[0m  SELECT `publishers`.* FROM `publishers` WHERE `publishers`.`id` = 3 LIMIT 1
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_books__book_erb__4429487741972814486_70232805120420 at /Users/wenli/Documents/wenli/training/book_manager/app/views/books/_book.erb:8)
+  Rendered books/_book.erb (2.5ms)
+  Rendered books/_index.html.erb (3.7ms)
+  Rendered books/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/genres/" for 127.0.0.1 at 2015-07-30 16:28:12 -0400
+Processing by GenresController#index as HTML
+  Rendered genres/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error ('nil' is not an ActiveModel-compatible object. It must implement :to_partial_path.):
+    1: <html>
+    2: <%= render @generes %>
+    3: <%= link_to "add", new_genre_path, :remote => true %><br>
+    4: <div id = "form_container"></div>
+    5: </html>
+  app/views/genres/index.html.erb:2:in `_app_views_genres_index_html_erb__2803287073741022273_70232808700600'
+
+
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.5ms)
+
+
+Started GET "/genres/" for 127.0.0.1 at 2015-07-30 16:28:13 -0400
+Processing by GenresController#index as HTML
+  Rendered genres/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error ('nil' is not an ActiveModel-compatible object. It must implement :to_partial_path.):
+    1: <html>
+    2: <%= render @generes %>
+    3: <%= link_to "add", new_genre_path, :remote => true %><br>
+    4: <div id = "form_container"></div>
+    5: </html>
+  app/views/genres/index.html.erb:2:in `_app_views_genres_index_html_erb__2803287073741022273_70232808700600'
+
+
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.1ms)
+
+
+Started GET "/genres/" for 127.0.0.1 at 2015-07-30 16:28:31 -0400
+Processing by GenresController#index as HTML
+  Rendered genres/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error ('nil' is not an ActiveModel-compatible object. It must implement :to_partial_path.):
+    1: <html>
+    2: <%= render @geners %>
+    3: <%= link_to "add", new_genre_path, :remote => true %><br>
+    4: <div id = "form_container"></div>
+    5: </html>
+  app/views/genres/index.html.erb:2:in `_app_views_genres_index_html_erb__2803287073741022273_70232809410280'
+
+
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.2ms)
+
+
+Started GET "/genres/" for 127.0.0.1 at 2015-07-30 16:28:44 -0400
+Processing by GenresController#index as HTML
+  [1m[36mGenre Load (0.2ms)[0m  [1mSELECT `genres`.* FROM `genres`[0m
+  Rendered genres/index.html.erb within layouts/application (9.0ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (Missing partial genres/genre with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/wenli/Documents/wenli/training/book_manager/app/views"
+):
+    1: <html>
+    2: <%= render @genres %>
+    3: <%= link_to "add", new_genre_path, :remote => true %><br>
+    4: <div id = "form_container"></div>
+    5: </html>
+  app/views/genres/index.html.erb:2:in `_app_views_genres_index_html_erb__2803287073741022273_70232804772840'
+
+
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.3ms)
+
+
+Started GET "/genres/" for 127.0.0.1 at 2015-07-30 16:29:12 -0400
+Processing by GenresController#index as HTML
+  [1m[35mGenre Load (0.1ms)[0m  SELECT `genres`.* FROM `genres`
+  Rendered genres/_genre.erb (1.0ms)
+  Rendered genres/index.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/wenli/Documents/wenli/training/book_manager/app/views/genres/_genre.erb:15: syntax error, unexpected ')'
+...er.append=( link_to "delete", );@output_buffer.safe_append='...
+...                               ^
+/Users/wenli/Documents/wenli/training/book_manager/app/views/genres/_genre.erb:17: syntax error, unexpected keyword_end, expecting ')'
+';   end 
+        ^
+/Users/wenli/Documents/wenli/training/book_manager/app/views/genres/_genre.erb:19: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/wenli/Documents/wenli/training/book_manager/app/views/genres/_genre.erb:21: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/genres/index.html.erb:2:in `_app_views_genres_index_html_erb__2803287073741022273_70232804772840'
+
+
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.5ms)
+
+
+Started GET "/genres/" for 127.0.0.1 at 2015-07-30 16:29:42 -0400
+Processing by GenresController#index as HTML
+  [1m[36mGenre Load (0.1ms)[0m  [1mSELECT `genres`.* FROM `genres`[0m
+  Rendered genres/_genre.erb (11.8ms)
+  Rendered genres/index.html.erb within layouts/application (13.4ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (undefined method `genre' for #<#<Class:0x007fc0b33c6d58>:0x007fc0b3513120>):
+     8:     <th>Name</th>
+     9:     <th>Description</th>
+    10:   </tr>
+    11:   <% genre do |g| %>
+    12:     <tr>
+    13:       <td><%= link_to g.name, edit_genre_path(g), :remote => true %></td>
+    14:       <td><%= g.desc %></td>
+  app/views/genres/_genre.erb:11:in `_app_views_genres__genre_erb__3105078188958928135_70232806065860'
+  app/views/genres/index.html.erb:2:in `_app_views_genres_index_html_erb__2803287073741022273_70232804772840'
+
+
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.1ms)
+
+
+Started GET "/genres/" for 127.0.0.1 at 2015-07-30 16:30:27 -0400
+Processing by GenresController#index as HTML
+  [1m[35mGenre Load (0.1ms)[0m  SELECT `genres`.* FROM `genres`
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_genres__genre_erb__3105078188958928135_70232803159920 at /Users/wenli/Documents/wenli/training/book_manager/app/views/genres/_genre.erb:14)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_genres__genre_erb__3105078188958928135_70232803159920 at /Users/wenli/Documents/wenli/training/book_manager/app/views/genres/_genre.erb:14)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_genres__genre_erb__3105078188958928135_70232803159920 at /Users/wenli/Documents/wenli/training/book_manager/app/views/genres/_genre.erb:14)
+  Rendered genres/_genre.erb (2.2ms)
+  Rendered genres/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:30:27 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:30:27 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:30:27 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:30:27 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:30:27 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:30:27 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:30:27 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:30:27 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:30:27 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:30:27 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:30:27 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:30:27 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:30:27 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:30:27 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:30:27 -0400
+
+
+Started GET "/genres/" for 127.0.0.1 at 2015-07-30 16:34:25 -0400
+Processing by GenresController#index as HTML
+  [1m[36mGenre Load (0.1ms)[0m  [1mSELECT `genres`.* FROM `genres`[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_genres__genre_erb__3105078188958928135_70232805623080 at /Users/wenli/Documents/wenli/training/book_manager/app/views/genres/_genre.erb:14)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_genres__genre_erb__3105078188958928135_70232805623080 at /Users/wenli/Documents/wenli/training/book_manager/app/views/genres/_genre.erb:14)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_genres__genre_erb__3105078188958928135_70232805623080 at /Users/wenli/Documents/wenli/training/book_manager/app/views/genres/_genre.erb:14)
+  Rendered genres/_genre.erb (2.7ms)
+  Rendered genres/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:34:25 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:34:25 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:34:25 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:34:25 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:34:25 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:34:25 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:34:25 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:34:25 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:34:25 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:34:25 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:34:25 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:34:25 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:34:25 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:34:25 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:34:25 -0400
+
+
+Started DELETE "/genres/4" for 127.0.0.1 at 2015-07-30 16:34:27 -0400
+Processing by GenresController#destroy as JS
+  Parameters: {"id"=>"4"}
+  [1m[35mGenre Load (0.1ms)[0m  SELECT `genres`.* FROM `genres` WHERE `genres`.`id` = 4 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSubgenre Load (0.3ms)[0m  SELECT `subgenres`.* FROM `subgenres` WHERE `subgenres`.`genre_id` = 4
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT `books`.* FROM `books` WHERE `books`.`subgenre_id` = 6[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM `books` WHERE `books`.`id` = 12
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM `subgenres` WHERE `subgenres`.`id` = 6[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM `genres` WHERE `genres`.`id` = 4
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/genres
+Completed 302 Found in 14ms (ActiveRecord: 5.8ms)
+
+
+Started DELETE "/genres" for 127.0.0.1 at 2015-07-30 16:34:27 -0400
+
+ActionController::RoutingError (No route matches [DELETE] "/genres"):
+  actionpack (4.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.7) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.7) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.7) lib/rails/engine.rb:511:in `call'
+  railties (4.0.7) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/wenli/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/wenli/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/wenli/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (25.8ms)
+
+
+Started GET "/genres/" for 127.0.0.1 at 2015-07-30 16:35:25 -0400
+Processing by GenresController#index as HTML
+  [1m[35mGenre Load (0.2ms)[0m  SELECT `genres`.* FROM `genres`
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_genres__genre_erb__3105078188958928135_70232805623080 at /Users/wenli/Documents/wenli/training/book_manager/app/views/genres/_genre.erb:14)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_genres__genre_erb__3105078188958928135_70232805623080 at /Users/wenli/Documents/wenli/training/book_manager/app/views/genres/_genre.erb:14)
+  Rendered genres/_genre.erb (1.3ms)
+  Rendered genres/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 18ms (Views: 11.7ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:35:25 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:35:25 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:35:25 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:35:25 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:35:25 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:35:25 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:35:25 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:35:25 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:35:25 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:35:25 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:35:25 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:35:25 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:35:25 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:35:25 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:35:25 -0400
+
+
+Started DELETE "/genres/5" for 127.0.0.1 at 2015-07-30 16:35:27 -0400
+Processing by GenresController#destroy as JS
+  Parameters: {"id"=>"5"}
+  [1m[36mGenre Load (0.3ms)[0m  [1mSELECT `genres`.* FROM `genres` WHERE `genres`.`id` = 5 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSubgenre Load (0.3ms)[0m  [1mSELECT `subgenres`.* FROM `subgenres` WHERE `subgenres`.`genre_id` = 5[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM `genres` WHERE `genres`.`id` = 5
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  Rendered genres/destroy.js.erb (12.7ms)
+Completed 500 Internal Server Error in 42ms
+
+ActionView::Template::Error (undefined local variable or method `genre' for #<#<Class:0x007fc0b68e94b8>:0x007fc0b2a58910>):
+    1: $(document).ready(
+    2:   function(){
+    3:     $("tr[id='<%= genre.id %>']").remove();
+    4:   }
+    5: )
+  app/views/genres/destroy.js.erb:3:in `_app_views_genres_destroy_js_erb__3646953741163957914_70232803789740'
+
+
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.0ms)
+
+
+Started GET "/genres/" for 127.0.0.1 at 2015-07-30 16:35:53 -0400
+Processing by GenresController#index as HTML
+  [1m[35mGenre Load (0.2ms)[0m  SELECT `genres`.* FROM `genres`
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_genres__genre_erb__3105078188958928135_70232805623080 at /Users/wenli/Documents/wenli/training/book_manager/app/views/genres/_genre.erb:14)
+  Rendered genres/_genre.erb (0.7ms)
+  Rendered genres/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:35:53 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:35:53 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:35:53 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:35:53 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:35:53 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:35:53 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:35:53 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:35:53 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:35:53 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:35:53 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:35:53 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:35:53 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:35:53 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:35:53 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:35:53 -0400
+
+
+Started DELETE "/genres/6" for 127.0.0.1 at 2015-07-30 16:35:55 -0400
+Processing by GenresController#destroy as JS
+  Parameters: {"id"=>"6"}
+  [1m[36mGenre Load (0.3ms)[0m  [1mSELECT `genres`.* FROM `genres` WHERE `genres`.`id` = 6 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSubgenre Load (0.2ms)[0m  [1mSELECT `subgenres`.* FROM `subgenres` WHERE `subgenres`.`genre_id` = 6[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM `genres` WHERE `genres`.`id` = 6
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  Rendered genres/destroy.js.erb (0.4ms)
+Completed 200 OK in 8ms (Views: 4.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/genres/new" for 127.0.0.1 at 2015-07-30 16:35:57 -0400
+Processing by GenresController#new as JS
+  Rendered genres/_form.erb (2.1ms)
+  Rendered genres/new.js.erb (5.8ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/genres" for 127.0.0.1 at 2015-07-30 16:35:59 -0400
+Processing by GenresController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GFR+vHZNQQXEaTbzD1WzQB21x8Z5NUmrgcjtQntMWno=", "genre"=>{"name"=>"aa", "desc"=>"aa"}, "commit"=>"Create Genre"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `genres` (`created_at`, `desc`, `name`, `updated_at`) VALUES ('2015-07-30 20:35:59', 'aa', 'aa', '2015-07-30 20:35:59')[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://127.0.0.1:3000/genres
+Completed 302 Found in 3ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/genres" for 127.0.0.1 at 2015-07-30 16:35:59 -0400
+Processing by GenresController#index as HTML
+  [1m[36mGenre Load (0.3ms)[0m  [1mSELECT `genres`.* FROM `genres`[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_genres__genre_erb__3105078188958928135_70232805623080 at /Users/wenli/Documents/wenli/training/book_manager/app/views/genres/_genre.erb:14)
+  Rendered genres/_genre.erb (1.0ms)
+  Rendered genres/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:35:59 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:35:59 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:35:59 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:35:59 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:35:59 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:35:59 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:35:59 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:35:59 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:35:59 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:35:59 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:35:59 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:35:59 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:35:59 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:35:59 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:35:59 -0400
+
+
+Started GET "/genres/new" for 127.0.0.1 at 2015-07-30 16:36:01 -0400
+Processing by GenresController#new as JS
+  Rendered genres/_form.erb (2.0ms)
+  Rendered genres/new.js.erb (4.5ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/genres" for 127.0.0.1 at 2015-07-30 16:36:03 -0400
+Processing by GenresController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GFR+vHZNQQXEaTbzD1WzQB21x8Z5NUmrgcjtQntMWno=", "genre"=>{"name"=>"bbbb", "desc"=>"bb"}, "commit"=>"Create Genre"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `genres` (`created_at`, `desc`, `name`, `updated_at`) VALUES ('2015-07-30 20:36:03', 'bb', 'bbbb', '2015-07-30 20:36:03')[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://127.0.0.1:3000/genres
+Completed 302 Found in 2ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/genres" for 127.0.0.1 at 2015-07-30 16:36:03 -0400
+Processing by GenresController#index as HTML
+  [1m[36mGenre Load (0.3ms)[0m  [1mSELECT `genres`.* FROM `genres`[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_genres__genre_erb__3105078188958928135_70232805623080 at /Users/wenli/Documents/wenli/training/book_manager/app/views/genres/_genre.erb:14)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_genres__genre_erb__3105078188958928135_70232805623080 at /Users/wenli/Documents/wenli/training/book_manager/app/views/genres/_genre.erb:14)
+  Rendered genres/_genre.erb (1.1ms)
+  Rendered genres/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:36:03 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:36:03 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:36:03 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:36:03 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:36:03 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:36:03 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:36:03 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:36:03 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:36:03 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:36:03 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:36:03 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:36:03 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:36:03 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:36:03 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:36:03 -0400
+
+
+Started GET "/genres/8/edit" for 127.0.0.1 at 2015-07-30 16:36:04 -0400
+Processing by GenresController#edit as JS
+  Parameters: {"id"=>"8"}
+  [1m[35mGenre Load (0.3ms)[0m  SELECT `genres`.* FROM `genres` WHERE `genres`.`id` = 8 LIMIT 1
+  Rendered genres/_form.erb (1.5ms)
+  Rendered genres/edit.js.erb (3.9ms)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/genres/8" for 127.0.0.1 at 2015-07-30 16:36:06 -0400
+Processing by GenresController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GFR+vHZNQQXEaTbzD1WzQB21x8Z5NUmrgcjtQntMWno=", "genre"=>{"name"=>"ccc", "desc"=>"bb"}, "commit"=>"Update Genre", "id"=>"8"}
+  [1m[36mGenre Load (0.1ms)[0m  [1mSELECT `genres`.* FROM `genres` WHERE `genres`.`id` = 8 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `genres` SET `name` = 'ccc', `updated_at` = '2015-07-30 20:36:06' WHERE `genres`.`id` = 8[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://127.0.0.1:3000/genres/8
+Completed 302 Found in 23ms (ActiveRecord: 18.7ms)
+
+
+Started GET "/genres/8" for 127.0.0.1 at 2015-07-30 16:36:06 -0400
+Processing by GenresController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mGenre Load (0.2ms)[0m  [1mSELECT `genres`.* FROM `genres` WHERE `genres`.`id` = 8 LIMIT 1[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_genres_show_html_erb___1817021035867533828_70232805102980 at /Users/wenli/Documents/wenli/training/book_manager/app/views/genres/show.html.erb:15)
+  Rendered genres/show.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:36:06 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:36:06 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:36:06 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:36:06 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:36:06 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:36:06 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:36:06 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:36:06 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:36:06 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:36:06 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:36:06 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:36:06 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:36:06 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:36:06 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:36:06 -0400
+
+
+Started GET "/javascripts/defaults.js" for 127.0.0.1 at 2015-07-30 16:36:06 -0400
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/defaults.js"):
+  actionpack (4.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.7) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.7) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.7) lib/rails/engine.rb:511:in `call'
+  railties (4.0.7) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/wenli/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/wenli/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/wenli/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (27.6ms)
+
+
+Started GET "/genres" for 127.0.0.1 at 2015-07-30 16:36:10 -0400
+Processing by GenresController#index as HTML
+  [1m[35mGenre Load (0.3ms)[0m  SELECT `genres`.* FROM `genres`
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_genres__genre_erb__3105078188958928135_70232805623080 at /Users/wenli/Documents/wenli/training/book_manager/app/views/genres/_genre.erb:14)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_genres__genre_erb__3105078188958928135_70232805623080 at /Users/wenli/Documents/wenli/training/book_manager/app/views/genres/_genre.erb:14)
+  Rendered genres/_genre.erb (1.4ms)
+  Rendered genres/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:36:10 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:36:10 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:36:10 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:36:10 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:36:10 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:36:10 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:36:10 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:36:10 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:36:10 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:36:10 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:36:10 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:36:10 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:36:10 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:36:10 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:36:10 -0400
+
+
+Started DELETE "/genres/8" for 127.0.0.1 at 2015-07-30 16:36:13 -0400
+Processing by GenresController#destroy as JS
+  Parameters: {"id"=>"8"}
+  [1m[36mGenre Load (0.1ms)[0m  [1mSELECT `genres`.* FROM `genres` WHERE `genres`.`id` = 8 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSubgenre Load (0.2ms)[0m  [1mSELECT `subgenres`.* FROM `subgenres` WHERE `subgenres`.`genre_id` = 8[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM `genres` WHERE `genres`.`id` = 8
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  Rendered genres/destroy.js.erb (0.1ms)
+Completed 200 OK in 6ms (Views: 3.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/genres" for 127.0.0.1 at 2015-07-30 16:38:26 -0400
+Processing by GenresController#index as HTML
+  [1m[35mGenre Load (0.3ms)[0m  SELECT `genres`.* FROM `genres`
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_genres__genre_erb__3105078188958928135_70232805623080 at /Users/wenli/Documents/wenli/training/book_manager/app/views/genres/_genre.erb:14)
+  Rendered genres/_genre.erb (1.0ms)
+  Rendered genres/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:38:27 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:38:27 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:38:27 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:38:27 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:38:27 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:38:27 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:38:27 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:38:27 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:38:27 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:38:27 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:38:27 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:38:27 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:38:27 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:38:27 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:38:27 -0400
+
+
+Started GET "/genres" for 127.0.0.1 at 2015-07-30 16:40:25 -0400
+Processing by GenresController#index as HTML
+  [1m[36mGenre Load (0.1ms)[0m  [1mSELECT `genres`.* FROM `genres`[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_genres__genre_erb__3105078188958928135_70232804414960 at /Users/wenli/Documents/wenli/training/book_manager/app/views/genres/_genre.erb:10)
+  Rendered genres/_genre.erb (1.3ms)
+  Rendered genres/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 22ms (Views: 13.9ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:40:25 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:40:25 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:40:25 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:40:25 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:40:25 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:40:25 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:40:25 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:40:25 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:40:25 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:40:25 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:40:25 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:40:25 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:40:25 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:40:25 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:40:25 -0400
+
+
+Started GET "/genres" for 127.0.0.1 at 2015-07-30 16:40:46 -0400
+Processing by GenresController#index as HTML
+  [1m[35mGenre Load (0.1ms)[0m  SELECT `genres`.* FROM `genres`
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_genres__genre_erb__3105078188958928135_70232804414960 at /Users/wenli/Documents/wenli/training/book_manager/app/views/genres/_genre.erb:10)
+  Rendered genres/_genre.erb (0.7ms)
+  Rendered genres/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:40:46 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:40:46 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:40:46 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:40:46 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:40:46 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:40:46 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:40:46 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:40:46 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:40:46 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:40:46 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:40:46 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:40:46 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:40:46 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:40:46 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:40:46 -0400
+
+
+Started GET "/genres" for 127.0.0.1 at 2015-07-30 16:42:17 -0400
+Processing by GenresController#index as HTML
+  [1m[36mGenre Load (0.1ms)[0m  [1mSELECT `genres`.* FROM `genres`[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_genres__genre_erb__3105078188958928135_70232836772780 at /Users/wenli/Documents/wenli/training/book_manager/app/views/genres/_genre.erb:8)
+  Rendered genres/_genre.erb (0.9ms)
+  Rendered genres/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:42:17 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:42:17 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:42:17 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:42:17 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:42:17 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:42:17 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:17 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:17 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:17 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:17 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:17 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:17 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:17 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:17 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:17 -0400
+
+
+Started GET "/genres/7/edit" for 127.0.0.1 at 2015-07-30 16:42:21 -0400
+Processing by GenresController#edit as JS
+  Parameters: {"id"=>"7"}
+  [1m[35mGenre Load (0.3ms)[0m  SELECT `genres`.* FROM `genres` WHERE `genres`.`id` = 7 LIMIT 1
+  Rendered genres/_form.erb (1.7ms)
+  Rendered genres/edit.js.erb (4.8ms)
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/genres/7" for 127.0.0.1 at 2015-07-30 16:42:24 -0400
+Processing by GenresController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GFR+vHZNQQXEaTbzD1WzQB21x8Z5NUmrgcjtQntMWno=", "genre"=>{"name"=>"bbbb", "desc"=>"aa"}, "commit"=>"Update Genre", "id"=>"7"}
+  [1m[36mGenre Load (0.1ms)[0m  [1mSELECT `genres`.* FROM `genres` WHERE `genres`.`id` = 7 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `genres` SET `name` = 'bbbb', `updated_at` = '2015-07-30 20:42:24' WHERE `genres`.`id` = 7[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to http://127.0.0.1:3000/genres
+Completed 302 Found in 4ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/genres" for 127.0.0.1 at 2015-07-30 16:42:24 -0400
+Processing by GenresController#index as HTML
+  [1m[36mGenre Load (0.2ms)[0m  [1mSELECT `genres`.* FROM `genres`[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_genres__genre_erb__3105078188958928135_70232836772780 at /Users/wenli/Documents/wenli/training/book_manager/app/views/genres/_genre.erb:8)
+  Rendered genres/_genre.erb (0.6ms)
+  Rendered genres/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:42:24 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:42:24 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:42:24 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:42:24 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:42:24 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:42:24 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:24 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:24 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:24 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:24 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:24 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:24 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:24 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:24 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:24 -0400
+
+
+Started GET "/genres/7/edit" for 127.0.0.1 at 2015-07-30 16:42:27 -0400
+Processing by GenresController#edit as JS
+  Parameters: {"id"=>"7"}
+  [1m[35mGenre Load (0.3ms)[0m  SELECT `genres`.* FROM `genres` WHERE `genres`.`id` = 7 LIMIT 1
+  Rendered genres/_form.erb (1.7ms)
+  Rendered genres/edit.js.erb (4.1ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/genres/7" for 127.0.0.1 at 2015-07-30 16:42:30 -0400
+Processing by GenresController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GFR+vHZNQQXEaTbzD1WzQB21x8Z5NUmrgcjtQntMWno=", "genre"=>{"name"=>"ccc", "desc"=>"aa"}, "commit"=>"Update Genre", "id"=>"7"}
+  [1m[36mGenre Load (0.1ms)[0m  [1mSELECT `genres`.* FROM `genres` WHERE `genres`.`id` = 7 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `genres` SET `name` = 'ccc', `updated_at` = '2015-07-30 20:42:30' WHERE `genres`.`id` = 7[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://127.0.0.1:3000/genres
+Completed 302 Found in 3ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/genres" for 127.0.0.1 at 2015-07-30 16:42:30 -0400
+Processing by GenresController#index as HTML
+  [1m[36mGenre Load (0.2ms)[0m  [1mSELECT `genres`.* FROM `genres`[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_genres__genre_erb__3105078188958928135_70232836772780 at /Users/wenli/Documents/wenli/training/book_manager/app/views/genres/_genre.erb:8)
+  Rendered genres/_genre.erb (0.6ms)
+  Rendered genres/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:42:30 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:42:30 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:42:30 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:42:30 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:42:30 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:42:30 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:30 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:30 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:30 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:30 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:30 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:30 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:30 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:30 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:30 -0400
+
+
+Started DELETE "/genres/7" for 127.0.0.1 at 2015-07-30 16:42:34 -0400
+Processing by GenresController#destroy as JS
+  Parameters: {"id"=>"7"}
+  [1m[35mGenre Load (0.3ms)[0m  SELECT `genres`.* FROM `genres` WHERE `genres`.`id` = 7 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSubgenre Load (0.2ms)[0m  SELECT `subgenres`.* FROM `subgenres` WHERE `subgenres`.`genre_id` = 7
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM `genres` WHERE `genres`.`id` = 7[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  Rendered genres/destroy.js.erb (0.1ms)
+Completed 200 OK in 14ms (Views: 4.5ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/genres/new" for 127.0.0.1 at 2015-07-30 16:42:36 -0400
+Processing by GenresController#new as JS
+  Rendered genres/_form.erb (1.4ms)
+  Rendered genres/new.js.erb (3.8ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/genres" for 127.0.0.1 at 2015-07-30 16:42:39 -0400
+Processing by GenresController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GFR+vHZNQQXEaTbzD1WzQB21x8Z5NUmrgcjtQntMWno=", "genre"=>{"name"=>"aaa", "desc"=>"aa"}, "commit"=>"Create Genre"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `genres` (`created_at`, `desc`, `name`, `updated_at`) VALUES ('2015-07-30 20:42:39', 'aa', 'aaa', '2015-07-30 20:42:39')
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/genres
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/genres" for 127.0.0.1 at 2015-07-30 16:42:39 -0400
+Processing by GenresController#index as HTML
+  [1m[35mGenre Load (0.2ms)[0m  SELECT `genres`.* FROM `genres`
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_genres__genre_erb__3105078188958928135_70232836772780 at /Users/wenli/Documents/wenli/training/book_manager/app/views/genres/_genre.erb:8)
+  Rendered genres/_genre.erb (0.8ms)
+  Rendered genres/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:42:39 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:42:39 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:42:39 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:42:39 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:42:39 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:42:39 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:39 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:39 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:39 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:39 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:39 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:39 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:39 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:39 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:42:39 -0400
+
+
+Started GET "/genres" for 127.0.0.1 at 2015-07-30 16:44:34 -0400
+
+SyntaxError (/Users/wenli/Documents/wenli/training/book_manager/app/controllers/genres_controller.rb:10: syntax error, unexpected tIDENTIFIER, expecting ')'
+    render 'index'
+          ^):
+  activesupport (4.0.7) lib/active_support/dependencies.rb:424:in `load'
+  activesupport (4.0.7) lib/active_support/dependencies.rb:424:in `block in load_file'
+  activesupport (4.0.7) lib/active_support/dependencies.rb:616:in `new_constants_in'
+  activesupport (4.0.7) lib/active_support/dependencies.rb:423:in `load_file'
+  activesupport (4.0.7) lib/active_support/dependencies.rb:324:in `require_or_load'
+  activesupport (4.0.7) lib/active_support/dependencies.rb:463:in `load_missing_constant'
+  activesupport (4.0.7) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.0.7) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.7) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.7) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.7) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.7) lib/active_support/inflector/methods.rb:224:in `constantize'
+  activesupport (4.0.7) lib/active_support/dependencies.rb:535:in `get'
+  activesupport (4.0.7) lib/active_support/dependencies.rb:566:in `constantize'
+  actionpack (4.0.7) lib/action_dispatch/routing/route_set.rb:78:in `controller_reference'
+  actionpack (4.0.7) lib/action_dispatch/routing/route_set.rb:68:in `controller'
+  actionpack (4.0.7) lib/action_dispatch/routing/route_set.rb:46:in `call'
+  actionpack (4.0.7) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.7) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.7) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.7) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.7) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.7) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.7) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.7) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.7) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.0.7) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.7) lib/active_support/callbacks.rb:373:in `_run__1578330421700572443__call__callbacks'
+  activesupport (4.0.7) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.7) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.7) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.7) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.7) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.7) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.7) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.7) lib/rails/engine.rb:511:in `call'
+  railties (4.0.7) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/wenli/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/wenli/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/wenli/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.9ms)
+
+
+Started GET "/genres" for 127.0.0.1 at 2015-07-30 16:44:43 -0400
+Processing by GenresController#index as HTML
+  [1m[36mGenre Load (0.1ms)[0m  [1mSELECT `genres`.* FROM `genres`[0m
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_genres__genre_erb__3105078188958928135_70232836772780 at /Users/wenli/Documents/wenli/training/book_manager/app/views/genres/_genre.erb:8)
+  Rendered genres/_genre.erb (1.1ms)
+  Rendered genres/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 20ms (Views: 13.5ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-30 16:44:43 -0400
+
+
+Started GET "/assets/genres.css?body=1" for 127.0.0.1 at 2015-07-30 16:44:43 -0400
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2015-07-30 16:44:43 -0400
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2015-07-30 16:44:43 -0400
+
+
+Started GET "/assets/publishers.css?body=1" for 127.0.0.1 at 2015-07-30 16:44:43 -0400
+
+
+Started GET "/assets/subgenres.css?body=1" for 127.0.0.1 at 2015-07-30 16:44:43 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-30 16:44:43 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-30 16:44:43 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-30 16:44:43 -0400
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2015-07-30 16:44:43 -0400
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2015-07-30 16:44:43 -0400
+
+
+Started GET "/assets/genres.js?body=1" for 127.0.0.1 at 2015-07-30 16:44:43 -0400
+
+
+Started GET "/assets/publishers.js?body=1" for 127.0.0.1 at 2015-07-30 16:44:43 -0400
+
+
+Started GET "/assets/subgenres.js?body=1" for 127.0.0.1 at 2015-07-30 16:44:43 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-30 16:44:43 -0400
+
+
+Started GET "/genres/new" for 127.0.0.1 at 2015-07-30 16:44:44 -0400
+Processing by GenresController#new as JS
+  Rendered genres/_form.erb (2.1ms)
+  Rendered genres/new.js.erb (4.6ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/genres" for 127.0.0.1 at 2015-07-30 16:44:46 -0400
+Processing by GenresController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GFR+vHZNQQXEaTbzD1WzQB21x8Z5NUmrgcjtQntMWno=", "genre"=>{"name"=>"bb", "desc"=>""}, "commit"=>"Create Genre"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Completed 422 Unprocessable Entity in 19ms
+
+ActiveRecord::RecordInvalid (Validation failed: Desc can't be blank):
+  app/controllers/genres_controller.rb:9:in `create'
+
+
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.6ms)
+
+
+Started GET "/genres/new" for 127.0.0.1 at 2015-07-30 16:44:49 -0400
+Processing by GenresController#new as JS
+  Rendered genres/_form.erb (1.7ms)
+  Rendered genres/new.js.erb (4.3ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/genres" for 127.0.0.1 at 2015-07-30 16:44:52 -0400
+Processing by GenresController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GFR+vHZNQQXEaTbzD1WzQB21x8Z5NUmrgcjtQntMWno=", "genre"=>{"name"=>"bbbbb", "desc"=>"bb"}, "commit"=>"Create Genre"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `genres` (`created_at`, `desc`, `name`, `updated_at`) VALUES ('2015-07-30 20:44:52', 'bb', 'bbbbb', '2015-07-30 20:44:52')[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  Rendered genres/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error ('nil' is not an ActiveModel-compatible object. It must implement :to_partial_path.):
+     5:   <td>Description</td>
+     6:   <td>Action</td>
+     7:   </tr>
+     8:   <%= render @genres %>
+     9: </table>
+    10: <%= link_to "add", new_genre_path, :remote => true %><br>
+    11: <div id = "form_container"></div>
+  app/views/genres/index.html.erb:8:in `_app_views_genres_index_html_erb__2803287073741022273_70232836841420'
+  app/controllers/genres_controller.rb:10:in `create'
+
+
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.1ms)
+
+
+Started POST "/genres" for 127.0.0.1 at 2015-07-30 16:46:06 -0400
+Processing by GenresController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GFR+vHZNQQXEaTbzD1WzQB21x8Z5NUmrgcjtQntMWno=", "genre"=>{"name"=>"bbbbb", "desc"=>"bb"}, "commit"=>"Create Genre"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `genres` (`created_at`, `desc`, `name`, `updated_at`) VALUES ('2015-07-30 20:46:06', 'bb', 'bbbbb', '2015-07-30 20:46:06')
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  Rendered genres/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error ('nil' is not an ActiveModel-compatible object. It must implement :to_partial_path.):
+     5:   <td>Description</td>
+     6:   <td>Action</td>
+     7:   </tr>
+     8:   <%= render @genres %>
+     9: </table>
+    10: <%= link_to "add", new_genre_path, :remote => true %><br>
+    11: <div id = "form_container"></div>
+  app/views/genres/index.html.erb:8:in `_app_views_genres_index_html_erb__2803287073741022273_70232836841420'
+  app/controllers/genres_controller.rb:11:in `create'
+
+
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.2ms)
+
+
+Started GET "/genres/new" for 127.0.0.1 at 2015-07-30 16:46:10 -0400
+Processing by GenresController#new as JS
+  Rendered genres/_form.erb (2.2ms)
+  Rendered genres/new.js.erb (4.9ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/genres" for 127.0.0.1 at 2015-07-30 16:46:14 -0400
+Processing by GenresController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GFR+vHZNQQXEaTbzD1WzQB21x8Z5NUmrgcjtQntMWno=", "genre"=>{"name"=>"ccc", "desc"=>"cc"}, "commit"=>"Create Genre"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `genres` (`created_at`, `desc`, `name`, `updated_at`) VALUES ('2015-07-30 20:46:14', 'cc', 'ccc', '2015-07-30 20:46:14')[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  Rendered genres/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error ('nil' is not an ActiveModel-compatible object. It must implement :to_partial_path.):
+     5:   <td>Description</td>
+     6:   <td>Action</td>
+     7:   </tr>
+     8:   <%= render @genres %>
+     9: </table>
+    10: <%= link_to "add", new_genre_path, :remote => true %><br>
+    11: <div id = "form_container"></div>
+  app/views/genres/index.html.erb:8:in `_app_views_genres_index_html_erb__2803287073741022273_70232836841420'
+  app/controllers/genres_controller.rb:11:in `create'
+
+
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.9ms)
+
+
+Started POST "/genres" for 127.0.0.1 at 2015-07-30 16:46:49 -0400
+Processing by GenresController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GFR+vHZNQQXEaTbzD1WzQB21x8Z5NUmrgcjtQntMWno=", "genre"=>{"name"=>"ccc", "desc"=>"cc"}, "commit"=>"Create Genre"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `genres` (`created_at`, `desc`, `name`, `updated_at`) VALUES ('2015-07-30 20:46:49', 'cc', 'ccc', '2015-07-30 20:46:49')
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  Rendered genres/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error ('nil' is not an ActiveModel-compatible object. It must implement :to_partial_path.):
+     5:   <td>Description</td>
+     6:   <td>Action</td>
+     7:   </tr>
+     8:   <%= render @genres %>
+     9: </table>
+    10: <%= link_to "add", new_genre_path, :remote => true %><br>
+    11: <div id = "form_container"></div>
+  app/views/genres/index.html.erb:8:in `_app_views_genres_index_html_erb__2803287073741022273_70232836841420'
+  app/controllers/genres_controller.rb:11:in `create'
+
+
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/wenli/.rvm/gems/ruby-2.1.5/gems/actionpack-4.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.5ms)

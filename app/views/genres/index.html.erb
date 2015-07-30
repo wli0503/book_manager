@@ -1,5 +1,12 @@
 <html>
-<%= render "index" %>
+<table border = '1'>
+  <tr>
+  <td>Name</td>
+  <td>Description</td>
+  <td>Action</td>
+  </tr>
+  <%= render @genres %>
+</table>
 <%= link_to "add", new_genre_path, :remote => true %><br>
-<div id = "form"></div>
+<div id = "form_container"></div>
 </html>
