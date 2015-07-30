@@ -1,6 +1,6 @@
 <html>
-<% @books.each do |b| %>
-<%= link_to "#{b.name} -- #{b.year} -- #{b.author}", b %><br />
-<% end %>
-<%= link_to "Add", new_book_path %>
+<%= render "index" %>
+<%= link_to "Add", new_book_path, remote: true %>
+
+<div id="form_container"></div>
 </html>

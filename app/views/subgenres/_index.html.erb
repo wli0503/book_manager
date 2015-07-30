@@ -1,0 +1,14 @@
+<html>
+<table border = "1">
+  <tr>
+    <td>Name</td>
+    <td>Description</td>
+  </tr>
+  <% @subgenres.each do |s| %>
+  <tr>
+    <td><%= link_to s.name, subgenre_path(s) %></td>
+    <td><%= s.desc %></td>
+  </tr>
+  <% end %>
+</table>
+</html>

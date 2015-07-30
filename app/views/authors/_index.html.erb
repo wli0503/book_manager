@@ -1,0 +1,14 @@
+<html>
+<table border="1">
+  <tr>
+    <th>Full Name</th>
+    <th>Date of Birth</th>
+  </tr>
+  <% @authors.each do |a| %>
+    <tr>
+      <td><%= link_to a.name, author_path(a) %></td>
+      <td><%= a.DOB %></td>
+    </tr>
+  <% end %>
+</table>
+</html>

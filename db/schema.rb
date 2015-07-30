@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150728200217) do
+ActiveRecord::Schema.define(version: 20150729141616) do
 
   create_table "authors", force: true do |t|
     t.string   "first_name"
@@ -27,9 +27,13 @@ ActiveRecord::Schema.define(version: 20150728200217) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "author_id"
+    t.integer  "subgenre_id"
+    t.integer  "publisher_id"
   end
 
   add_index "books", ["author_id"], name: "index_books_on_author_id", using: :btree
+  add_index "books", ["publisher_id"], name: "index_books_on_publisher_id", using: :btree
+  add_index "books", ["subgenre_id"], name: "index_books_on_subgenre_id", using: :btree
 
   create_table "genres", force: true do |t|
     t.string   "name"
@@ -50,6 +54,9 @@ ActiveRecord::Schema.define(version: 20150728200217) do
     t.string   "desc"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "genre_id"
   end
+
+  add_index "subgenres", ["genre_id"], name: "index_subgenres_on_genre_id", using: :btree
 
 end

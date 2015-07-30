@@ -1,6 +1,17 @@
 <html>
 <%= javascript_include_tag :defaults %>
-<%= "#{@author.first_name} -- #{@author.last_name} -- #{@author.DOB}" %><br />
+<table border = '1'>
+  <tr>
+    <td>First Name</td>
+    <td>Last Name</td>
+    <td>Date of Birth</td>
+  </tr>
+  <tr>
+    <td><%= @author.first_name %></td>
+    <td><%= @author.last_name %></td>
+    <td><%= @author.DOB %></td>
+  </tr>
+</table>
 <%= link_to "Show all authors", authors_path %>
 <%= link_to "edit", edit_author_path %>
 <%= link_to "delete", @author,:method => :delete, :confirm => "Are you sure?" %>

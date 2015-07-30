@@ -1,6 +1,4 @@
 <html>
-<% @genres.each do |g| %>
-<%= link_to "#{g.name} -- #{g.desc}", g %><br>
-<% end %>
+<%= render "index" %>
 <%= link_to "add", new_genre_path %><br>
 </html>

@@ -11,7 +11,7 @@
 #
 
 class Author < ActiveRecord::Base
-  has_many :books, :inverse_of => :author
+  has_many :books, :inverse_of => :author, :dependent => :destroy
 
   attr_accessible :first_name, :last_name, :DOB, :name
 

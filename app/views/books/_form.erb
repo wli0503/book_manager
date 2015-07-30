@@ -1,5 +1,8 @@
+<%
+  book ||= @book
+%>
 <div content= "container">
-  <%= form_for @book do |b| %>
+  <%= form_for book do |b| %>
     <div content = "field">
       <%= b.label :name %>
       <%= b.text_field :name %>
@@ -12,6 +15,15 @@
       <%= b.label :author %>
       <%= b.collection_select :author_id, Author.all, :id, :name %>
     </div>
+    <div content = "field" >
+      <%= b.label :subgenre %>
+      <%= b.collection_select :subgenre_id, Subgenre.all, :id, :name %>
+    </div>
+    <div content = "field" >
+      <%= b.label :publisher %>
+      <%= b.collection_select :publisher_id, Publisher.all, :id, :name %>
+    </div>
+    <%= link_to "Back", books_path %>
     <%= b.submit %>
   <% end %>
 </div>

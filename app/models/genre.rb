@@ -12,8 +12,7 @@
 class Genre < ActiveRecord::Base
   attr_accessible :name, :desc
 
-  #has_many :subgenre
-  has_many :book
+  has_many :subgenres, :inverse_of => :genre, :dependent => :destroy
 
   validates :name, :presence => true,
       :length => { :maximum => 200}

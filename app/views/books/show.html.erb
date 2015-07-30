@@ -1,6 +1,21 @@
 <html>
 <%= javascript_include_tag :defaults %>
-<%= "#{@book.name} -- #{@book.year} -- #{@book.author}" %><br />
+<table border = '1'>
+  <tr>
+    <td>Name</td>
+    <td>Year</td>
+    <td>Author</td>
+    <td>Sub Genre</td>
+    <td>Publisher</td>
+  </tr>
+  <tr>
+    <td><%= @book.name %></td>
+    <td><%= @book.year %></td>
+    <td><%= @book.author %></td>
+    <td><%= @book.subgenre.name %></td>
+    <td><%= @book.publisher.name %></td>
+  </tr>
+</table>
 <%= link_to "List", books_path %><br>
 <%= link_to "Edit", edit_book_path %>
 <%= link_to "Delete", @book, :method => :delete, :confirm => "Are you sure?" %>

@@ -1,0 +1,9 @@
+<% book ||= @book %>
+<tr data-book-id="<%= book.id %>">
+  <td><%= link_to book.name, edit_book_path(book), :remote=>true %></td>
+  <td><%= book.year %></td>
+  <td><%= book.author.name %></td>
+  <td><%= book.subgenre.name %></td>
+  <td><%= book.publisher.name %></td>
+  <td><%= link_to "Delete", book, :method => :delete, :confirm => "Are you sure?", :remote=>true %></td>
+</tr>

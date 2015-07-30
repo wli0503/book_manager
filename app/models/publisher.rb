@@ -12,7 +12,7 @@
 class Publisher < ActiveRecord::Base
   attr_accessible :name, :desc
 
-  #has_many :book
+  has_many :books, :inverse_of => :publisher, :dependent => :destroy
 
   validates :name, :presence => true,
       :length => { :maximum => 200}

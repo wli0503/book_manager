@@ -1,0 +1,13 @@
+
+<table border="1">
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+  <% @genres.each do |g| %>
+  <tr>
+    <td><%= link_to g.name, genre_path(g) %></td>
+    <td><%= g.desc %></td>
+  </tr>
+  <% end %>
+</table>

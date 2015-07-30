@@ -1,12 +1,16 @@
 <div class = "container"%>
   <%= form_for @subgenre do |s| %>
-    <div class = "textfield">
+    <div class = "field">
       <%= s.label :name %>
       <%= s.text_field :name%>
     </div>
-    <div class = "textfield">
+    <div class = "field">
       <%= s.label :desc %>
       <%= s.text_field :desc %>
+    </div>
+    <div class = "field">
+      <%= s.label :genre %>
+      <%= s.collection_select :genre_id, Genre.all, :id, :name %>
     </div>
     <%= s.submit %>
   <% end %>
