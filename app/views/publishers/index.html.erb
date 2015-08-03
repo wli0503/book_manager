@@ -1,4 +1,5 @@
 <html>
 <%= render "index" %>
-<%= link_to "add", new_publisher_path %>
+<%= link_to "add", new_publisher_path, :remote => true %>
+<div id="form_container"></div>
 </html>

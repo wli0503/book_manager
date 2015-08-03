@@ -7,8 +7,7 @@ class PublishersController < ApplicationController
   end
 
   def create
-    Publisher.create params[:publisher]
-    redirect_to publishers_path
+    @publisher = Publisher.create params[:publisher]
   end
 
   def show
@@ -22,16 +21,11 @@ class PublishersController < ApplicationController
   end
 
   def update
-    if @publisher.update_attributes(params[:publisher])
-      redirect_to publishers_path
-    else
-      render 'edit'
-    end
+    @publisher.update_attributes(params[:publisher])
   end
 
   def destroy
     @publisher.destroy
-    redirect_to publishers_path
   end
 
   private

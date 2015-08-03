@@ -1,5 +1,5 @@
 <div class = "container"%>
-  <%= form_for @subgenre do |s| %>
+  <%= form_for @subgenre, :remote => true do |s| %>
     <div class = "field">
       <%= s.label :name %>
       <%= s.text_field :name%>

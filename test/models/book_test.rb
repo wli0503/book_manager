@@ -10,6 +10,7 @@
 #  author_id    :integer
 #  subgenre_id  :integer
 #  publisher_id :integer
+#  price        :float
 #
 
 require 'test_helper'

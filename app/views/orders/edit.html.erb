@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <table id="order_detail_table", border = "1">
+    <thead>
+      <tr>
+        <td>Book Name</td>
+        <td>Quantity</td>
+        <td>Actions</td>
+      </tr>
+    </thead>
+    <tdata>
+      <%= render @order.order_details %>
+    </tdata>
+  </table>
+  <%= link_to "Add", new_order_detail_path(:order_id => @order.id), :remote => true %>
+  <div id = "order_detail_form"></div>
+</html>

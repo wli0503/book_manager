@@ -1,0 +1,9 @@
+<%
+  subgenre ||= @subgenre;
+%>
+
+<tr id = "<%= subgenre.id %>">
+  <td><%= link_to subgenre.name, edit_subgenre_path(subgenre), :remote => true %></td>
+  <td><%= subgenre.desc %></td>
+  <td><%= link_to "delete", subgenre, :method => :delete, :remote => true, :confirm => "Are you Sure?" %></td>
+</tr>

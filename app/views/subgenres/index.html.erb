@@ -1,4 +1,6 @@
+<!DOCTYPE html>
 <html>
   <%= render "index" %>
-  <%= link_to "Add", new_subgenre_path %>
+  <%= link_to "Add", new_subgenre_path, :remote => true %>
+  <div id="form_container"></div>
 </html>

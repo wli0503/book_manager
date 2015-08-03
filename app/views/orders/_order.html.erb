@@ -1,0 +1,9 @@
+<%
+   order ||= @order
+%>
+
+<tr>
+  <td><%= order.customer_name%></td>
+  <td><%= order.total_price %></td>
+  <td><%= link_to "Details", edit_order_path(order) %></td>
+</tr>

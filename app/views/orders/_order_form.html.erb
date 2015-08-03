@@ -1,0 +1,14 @@
+<%
+   order ||= @order
+%>
+
+<%= form_for order, :remote => true do |o| %>
+  <div content = "field">
+    <%= o.label :Customer_Name %>
+    <%= o.text_field :customer_name %>
+  </div>
+  <div content = "field">
+    <%= o.hidden_field :total_price, :value => '0' %>
+  </div>
+  <%= o.submit %>
+<% end %>

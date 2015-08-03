@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<table border = "1" id = "order_table">
+  <thead>
+    <tr>
+      <th>Customer Name</th>
+      <th>Total Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <%= render @orders %>
+  </tbody>
+</table>
+<%= link_to "Place a new order", new_order_path, :remote => true %>
+<div id="form_for_order"></div>
+
+</html>

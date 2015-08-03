@@ -1,0 +1,9 @@
+<%
+  publisher ||= @publisher;
+%>
+
+<tr id="<%= publisher.id %>">
+  <td><%= link_to publisher.name, edit_publisher_path(publisher), :remote => true %></td>
+  <td><%= publisher.desc %></td>
+  <td><%= link_to "delete", publisher, :method => :delete, :remote => true, :confirm => "Are you sure?" %></td>
+</tr>

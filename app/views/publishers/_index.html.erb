@@ -1,16 +1,16 @@
 <html>
 <div class = "table">
   <table border = "1">
-    <tr>
-      <th>Name</th>
-      <th>Description</th>
-    </tr>
-    <% @publishers.each do |p| %>
-    <tr>
-      <td><%= link_to p.name, publisher_path(p) %></td>
-      <td><%= p.desc %></td>
-    </tr>
-    <% end %>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <%= render @publishers %>
+    </tbody>
   </table>
 </div>
 </html>

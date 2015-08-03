@@ -6,19 +6,14 @@ class GenresController < ApplicationController
   end
 
   def create
-    Genre.create!(params[:genre])
-    render 'index'
+    @genre = Genre.create!(params[:genre])
   end
 
   def edit
   end
 
   def update
-    if @genre.update_attributes(params[:genre])
-      redirect_to genres_path
-    else
-      render 'edit'
-    end
+    @genre.update_attributes(params[:genre])
   end
 
   def show

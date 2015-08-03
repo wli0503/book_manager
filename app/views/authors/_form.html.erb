@@ -1,5 +1,5 @@
 <div content= "container">
-  <%= form_for @author do |b| %>
+  <%= form_for @author, :remote => true do |b| %>
     <div content = "field">
       <%= b.label :name %>
       <%= b.text_field :name %>

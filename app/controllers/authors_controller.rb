@@ -1,6 +1,6 @@
 class AuthorsController < ApplicationController
 
-  before_filter :find_author_by_id, :only => [:show, :edit, :update]
+  before_filter :find_author_by_id, :only => [:show, :edit, :update, :destroy]
 
   def new
     @author = Author.new
@@ -8,18 +8,13 @@ class AuthorsController < ApplicationController
 
   def create
     @author = Author.create(params[:author])
-    redirect_to @author
   end
 
   def edit
   end
 
   def update
-    if @author.update_attributes(params[:author])
-      redirect_to @author
-    else
-      render 'edit'
-    end
+    @author.update_attributes(params[:author])
   end
 
   def show
@@ -31,7 +26,6 @@ class AuthorsController < ApplicationController
 
   def destroy
     Author.destroy(params[:id])
-    redirect_to authors_path
   end
 
   private

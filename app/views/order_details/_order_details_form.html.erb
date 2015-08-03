@@ -1,0 +1,16 @@
+<% order_detail ||= @order_detail %>
+
+<%= form_for order_detail, :remote => true do |od| %>
+  <div content = "field">
+    <%= od.label :Book_Name %>
+    <%= od.collection_select :book_id,  Book.all, :id, :name%>
+  </div>
+  <div content = "field">
+    <%= od.hidden_field :order_id, :value => @order_id %>
+  </div>
+  <div content = "field">
+    <%= od.label :Quantity %>
+    <%= od.text_field :quantity %>
+  </div>
+  <%= od.submit %>
+<% end %>

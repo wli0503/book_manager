@@ -7,8 +7,7 @@ class SubgenresController < ApplicationController
   end
 
   def create
-    Subgenre.create!(params[:subgenre])
-    redirect_to subgenres_path
+    @subgenre = Subgenre.create!(params[:subgenre])
   end
 
   def show
@@ -22,16 +21,11 @@ class SubgenresController < ApplicationController
   end
 
   def update
-    if @subgenre.update_attributes(params[:subgenre])
-      redirect_to @subgenre
-    else
-      render 'edit'
-    end
+    @subgenre.update_attributes(params[:subgenre])
   end
 
   def destroy
     @subgenre.destroy!
-    redirect_to subgenres_path
   end
 
   private
