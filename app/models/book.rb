@@ -45,6 +45,7 @@ class Book < ActiveRecord::Base
     if(!(self.new_record?) && self.price_changed?)
       PriceHistory.create(:book_id => self.id, :old_price => self.price_was, :new_price => self.price)
     end
+    true
   end
 
 end

@@ -11,21 +11,12 @@
 
 class Order < ActiveRecord::Base
 
-  attr_accessible :total_price, :customer_name
+  attr_accessible :total_price, :customer_name, :created_at
 
   has_many :order_details, :inverse_of => :order, :dependent => :destroy
 
-  #validates :total_price, :presence => true,
-  #            :numericality => true
+  validates :total_price, :numericality => true
   validates :customer_name, :presence => true,
               :length => { :maximum => 200 }
-
-  #before_save :calculate_total
-
-  private
-
-  def calculate_total
-    0
-  end
 
 end

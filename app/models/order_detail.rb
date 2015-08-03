@@ -26,7 +26,6 @@ class OrderDetail < ActiveRecord::Base
 
   after_save :calculate_total
   after_destroy :calculate_total
-  after_update :calculate_total
 
   private
   def calculate_total
@@ -37,6 +36,7 @@ class OrderDetail < ActiveRecord::Base
     end
     @order_to_be_updated = Order.find(self.order_id)
     @order_to_be_updated.update_attribute(:total_price, @total)
+    true
   end
 
 end

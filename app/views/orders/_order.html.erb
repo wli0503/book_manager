@@ -2,8 +2,10 @@
    order ||= @order
 %>
 
-<tr>
+<tr id = "<%= order.id %>">
   <td><%= order.customer_name%></td>
-  <td><%= order.total_price %></td>
+  <td><%= number_with_precision(order.total_price, :precision => 2) %></td>
+  <td><%= order.created_at %></td>
   <td><%= link_to "Details", edit_order_path(order) %></td>
+  <td><%= link_to "Delete", order, :method => :delete, :remote => true %></td>
 </tr>
