@@ -5,19 +5,22 @@
 
 <%
   genre_to_volume ||= @genre_to_volume
-   sales_history ||= @sales_history
+   sales_history_quantities ||= @sales_history[0]
+   sales_history_revenue ||= @sales_history[1]
 %>
 <html>
   <table>
-    <% sales_history.each do |k, v| %>
+    <%= sales_history_quantities.each do |k, v| %>
     <tr>
       <td><%= print k %></td>
-      <td>
-        <%= v.each do |inner_k, inner_v| %>
-        <%= print inner_k, inner_v %>
-        <% end %>
-      </td>
+      <td><%= print v %></td>
     </tr>
+    <% end %>
+    <%= sales_history_revenue.each do |k, v| %>
+      <tr>
+        <td><%= print k %></td>
+        <td><%= print v %></td>
+      </tr>
     <% end %>
   </table>
   <script>

@@ -13,15 +13,15 @@ class ReportsController < ApplicationController
   end
 
   def generate_sales_history
-    byebug
-    sales_history = Hash.new(Hash.new(0))
+    sales_history_quantity = Hash.new(0)
+    sales_history_revenue = Hash.new(0)
     Book.all.each do |book|
       book.order_details.each do |od|
-        sales_history[book.name][:total_volume_sold] += od.quantity
-        sales_history[book.name][:total_revenue] += od.quantity * od.unit_price
+        sales_history_quantity[book.name] += od.quantity
+        sales_history_revenue[book.name] += od.quantity * od.unit_price
       end
     end
-    sales_history
+    [sales_history_quantity, sales_history_revenue]
   end
 
 end
