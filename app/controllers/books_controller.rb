@@ -3,6 +3,7 @@ class BooksController < ApplicationController
   before_filter :find_book_by_id, :only => [:edit, :update, :show, :destroy]
 
   def new
+    byebug
     @book = Book.new
   end
 
@@ -27,7 +28,6 @@ class BooksController < ApplicationController
   def index
     @books = Book.all
   end
-
 
   private
 

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150803133810) do
+ActiveRecord::Schema.define(version: 20150805143017) do
 
   create_table "authors", force: true do |t|
     t.string   "first_name"
@@ -30,9 +30,11 @@ ActiveRecord::Schema.define(version: 20150803133810) do
     t.integer  "subgenre_id"
     t.integer  "publisher_id"
     t.float    "price"
+    t.integer  "genre_id"
   end
 
   add_index "books", ["author_id"], name: "index_books_on_author_id", using: :btree
+  add_index "books", ["genre_id"], name: "index_books_on_genre_id", using: :btree
   add_index "books", ["publisher_id"], name: "index_books_on_publisher_id", using: :btree
   add_index "books", ["subgenre_id"], name: "index_books_on_subgenre_id", using: :btree
 
@@ -80,6 +82,24 @@ ActiveRecord::Schema.define(version: 20150803133810) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "readers", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "readers", ["name"], name: "index_readers_on_name", using: :btree
+
+  create_table "reviews", force: true do |t|
+    t.integer  "reader_id"
+    t.integer  "book_id"
+    t.integer  "rating"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "reviews", ["reader_id", "book_id", "rating"], name: "index_reviews_on_reader_id_and_book_id_and_rating", using: :btree
 
   create_table "subgenres", force: true do |t|
     t.string   "name"

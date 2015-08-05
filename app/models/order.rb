@@ -19,4 +19,17 @@ class Order < ActiveRecord::Base
   validates :customer_name, :presence => true,
               :length => { :maximum => 200 }
 
+  after_create do |rec|
+    rec.calculate_total
+  end
+
+  def calculate_total
+    total = 0
+    order_details.each do |od|
+      total += od.quantity * od.unit_price
+    end
+    update_attributes(:total_price => total)
+    true
+  end
+
 end

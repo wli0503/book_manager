@@ -1,0 +1,45 @@
+<%
+  genre_to_volume ||= @genre_to_volume
+%>
+$(function () {
+  $('#container').highcharts({
+  chart: {
+    plotBackgroundColor: null,
+    plotBorderWidth: null,
+    plotShadow: false,
+    type: 'pie'
+  },
+  title: {
+    text: 'Total volume sold by genre'
+  },
+  tooltip: {
+    pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+  },
+  plotOptions: {
+    pie: {
+    allowPointSelect: true,
+    cursor: 'pointer',
+    dataLabels: {
+      enabled: true,
+      format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+      style: {
+        color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+        }
+      }
+    }
+  },
+  series: [{
+    name: "",
+    colorByPoint: true,
+    data: [
+      <% genre_to_volume.each do |k, v| %>
+      <% next if v == 0 %>
+      {
+        name: "<%= k %>",
+        y: <%= v %>
+      },
+      <% end %>
+    ]
+  }]
+  });
+});

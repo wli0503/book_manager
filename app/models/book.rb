@@ -14,13 +14,16 @@
 #
 
 class Book < ActiveRecord::Base
-  attr_accessible :name, :year, :author_id, :subgenre_id, :publisher_id, :price
+  attr_accessible :name, :year, :author_id, :subgenre_id, :publisher_id, :price, :genre_id
 
   belongs_to :author, :inverse_of => :books
   belongs_to :subgenre, :inverse_of => :books
+  belongs_to :genre, :inverse_of=> :books
   belongs_to :publisher, :inverse_of => :books
   has_many :order_details, :inverse_of => :book, :dependent => :destroy
   has_many :price_histories, :inverse_of => :book, :dependent => :destroy
+  has_many :reviews, :inverse_of => :book, :dependent => :destroy
+
   #delegate :genre, :to => :subgenre
 
   validates :name, :presence => true,
@@ -35,6 +38,22 @@ class Book < ActiveRecord::Base
 
   before_save :record_old_price
 
+  before_save do |rec|
+    if rec.subgenre_id_changed?
+      rec.genre_id = rec.subgenre.genre_id
+    end
+  end
+
+  def avg_rating_cache_key
+    "book.#{id}.avg_rating"
+  end
+
+  def avg_rating
+    Rails.cache.fetch(avg_rating_cache_key) do
+      reviews.average(:rating)
+    end
+  end
+
   def to_s
     name
   end
@@ -42,8 +61,8 @@ class Book < ActiveRecord::Base
   private
 
   def record_old_price
-    if(!(self.new_record?) && self.price_changed?)
-      PriceHistory.create(:book_id => self.id, :old_price => self.price_was, :new_price => self.price)
+    if(!(new_record?) && price_changed?)
+      PriceHistory.create(:book_id => self.id, :old_price => price_was, :new_price => price)
     end
     true
   end

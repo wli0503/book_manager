@@ -13,10 +13,16 @@ class Genre < ActiveRecord::Base
   attr_accessible :name, :desc
 
   has_many :subgenres, :inverse_of => :genre, :dependent => :destroy
+  has_many :books, :inverse_of=> :genre, :dependent => :destroy
 
   validates :name, :presence => true,
       :length => { :maximum => 200}
 
   validates :desc, :presence => true,
       :length => { :maximum => 200}
+      
+        
+  def count_books_in_genre
+    self.books.count
+  end
 end

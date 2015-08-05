@@ -1,8 +1,30 @@
 source 'https://rubygems.org'
 
+
 #Self import section
 gem 'protected_attributes'
 gem 'annotate'
+
+gem 'faker'
+
+group :development, :test do
+  gem "rspec-rails"
+  gem "guard-rspec"
+  gem "factory_girl_rails"
+end
+
+group :test do
+  gem "shoulda-matchers", "~> 2.8.0" , require: false
+  gem "webmock" # Easier mocking of API calls
+  gem "vcr" # Record and playback API data for tests
+  gem "simplecov", :require => false # Coverage analysis
+  gem "database_cleaner"
+  gem "shoulda-callback-matchers", "~> 1.1.1"
+  gem "awesome_print"
+end
+
+gem 'byebug'
+
 #End
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

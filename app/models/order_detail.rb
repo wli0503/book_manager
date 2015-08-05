@@ -28,14 +28,9 @@ class OrderDetail < ActiveRecord::Base
   after_destroy :calculate_total
 
   private
+
   def calculate_total
-    @total = 0
-    @all_order_detail = OrderDetail.all
-    @all_order_detail.each do |od|
-      @total += od.quantity * od.unit_price
-    end
-    @order_to_be_updated = Order.find(self.order_id)
-    @order_to_be_updated.update_attribute(:total_price, @total)
+    order.calculate_total
     true
   end
 

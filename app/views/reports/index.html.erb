@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src = "http://code.highcharts.com/highcharts.js"></script>
+<script src = "http://code.highcharts.com/modules/exporting.js"></script>
+
+<%
+  genre_to_volume ||= @genre_to_volume
+   sales_history ||= @sales_history
+%>
+<html>
+  <table>
+    <% sales_history.each do |k, v| %>
+    <tr>
+      <td><%= print k %></td>
+      <td>
+        <%= v.each do |inner_k, inner_v| %>
+        <%= print inner_k, inner_v %>
+        <% end %>
+      </td>
+    </tr>
+    <% end %>
+  </table>
+  <script>
+    <%= render 'piechart_js' %>
+  </script>
+
+  <div id="container" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
+</html>

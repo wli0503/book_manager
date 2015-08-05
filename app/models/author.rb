@@ -30,6 +30,7 @@ class Author < ActiveRecord::Base
     x,y = n.split(' ')
     self.first_name = x
     self.last_name = y
+    self.first_name && self.last_name
   end
 
   def to_s
