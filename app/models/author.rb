@@ -22,6 +22,9 @@ class Author < ActiveRecord::Base
   validates :DOB, :presence => true,
       :length => { :is => 10}
 
+  after_save :expire_author_cached
+  after_destroy :expire_author_cached
+
   def name
     "#{first_name} #{last_name}"
   end
@@ -35,6 +38,18 @@ class Author < ActiveRecord::Base
 
   def to_s
     name
+  end
+
+  def self.all_cached
+    Rails.cache.fetch('Authors.all') do
+      all
+    end
+  end
+
+  private
+
+  def expire_author_cached
+    Rails.cache.delete('Author.all')
   end
 
 

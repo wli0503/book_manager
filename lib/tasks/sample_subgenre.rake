@@ -3,7 +3,7 @@ require 'faker'
 namespace :db do
   desc "Fill subgenres table with random subgenres"
   task :populate_subgenres => :environment do
-    10.times do
+    50.times do
       Subgenre.create(
         :name => Faker::Lorem.word,
         :desc => Faker::Lorem.sentence,

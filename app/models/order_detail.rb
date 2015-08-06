@@ -24,13 +24,18 @@ class OrderDetail < ActiveRecord::Base
   validates :unit_price, :presence => true,
               :numericality => true
 
-  after_save :calculate_total
-  after_destroy :calculate_total
+  after_save :calculate_total, :expire_book_cache
+  after_destroy :calculate_total, :expire_book_cache
 
   private
 
   def calculate_total
     order.calculate_total
+    true
+  end
+
+  def expire_book_cache
+    Rails.cache.delete(book.total_volume_sold_cache_key)
     true
   end
 

@@ -3,7 +3,7 @@ require 'faker'
 namespace :db do
   desc "Populate order details with order details"
   task :populate_order_details => :environment do
-    10.times do
+    100.times do
       book_id = Book.offset(rand(Book.count)).first.id
        OrderDetail.create(
         :book_id => book_id,

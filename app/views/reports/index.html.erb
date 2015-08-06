@@ -2,30 +2,57 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src = "http://code.highcharts.com/highcharts.js"></script>
 <script src = "http://code.highcharts.com/modules/exporting.js"></script>
+<script src="http://code.highcharts.com/modules/drilldown.js"></script>
 
 <%
-  genre_to_volume ||= @genre_to_volume
-   sales_history_quantities ||= @sales_history[0]
-   sales_history_revenue ||= @sales_history[1]
+  genre_to_volume ||= @volume[0]
+  subgenre_to_volume ||= @volume[1]
+  sales_history_quantities ||= @sales_history[0]
+  sales_history_revenue ||= @sales_history[1]
+  highest_rating ||= @highest_rating
+  best_seller_by_volume ||= @best_seller_by_volume
 %>
 <html>
-  <table>
-    <%= sales_history_quantities.each do |k, v| %>
-    <tr>
-      <td><%= print k %></td>
-      <td><%= print v %></td>
-    </tr>
-    <% end %>
-    <%= sales_history_revenue.each do |k, v| %>
+  <table border = "1" id = "rate_table">
+    <thead>
+      <caption>Highest Rated</caption>
       <tr>
-        <td><%= print k %></td>
-        <td><%= print v %></td>
+        <th>Book Name</th>
+        <th>Rate</th>
       </tr>
-    <% end %>
+    </thead>
+    <tbody>
+      <% highest_rating.each do |k, v| %>
+      <tr>
+        <td><%= k %></td>
+        <td><%= v %></td>
+      </tr>
+      <% end %>
+    </tbody>
   </table>
-  <script>
-    <%= render 'piechart_js' %>
-  </script>
 
-  <div id="container" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
+  <table border = "1" id = "sale_table">
+    <thead>
+      <caption>Best Seller</caption>
+      <tr>
+        <th>Book Name</th>
+        <th>Volume sold</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% best_seller_by_volume.each do |k, v| %>
+        <tr>
+          <td><%= k %></td>
+          <td><%= v %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+
+  <script>
+    <%= render 'genrepiechart.js.erb' %>
+    <%= render 'linechart.js.erb' %>
+  </script>
+  <div id="genre_pie_chart_container" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
+  <div id="line_chart_container" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
 </html>

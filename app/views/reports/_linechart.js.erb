@@ -1,0 +1,69 @@
+<%
+    sales_history_quantities ||= @sales_history[0]
+    sales_history_revenue ||= @sales_history[1]
+%>
+
+$(function () {
+    $('#line_chart_container').highcharts({
+        chart: {
+            zoomType: 'xy',
+        },
+        title: {
+            text: 'Sales Report by book',
+            x: -20 //center
+        },
+        xAxis: {
+            categories: [
+                <% sales_history_quantities.each_key do |k, v| %>
+                "<%= k %>",
+                <% end %>
+            ]
+        },
+        yAxis: [{
+            title: {
+                text: 'Total Volume'
+            },
+            labels: {
+                align: 'left',
+                x: 3,
+                y: 16
+            },
+        }, {
+            opposite: true,
+            title: {
+                text: 'Total Revenue'
+            },
+            labels: {
+                align: 'right',
+                x: -3,
+                y: 16,
+            },
+        }],
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'top',
+            floating: true,
+        },
+        tooltip: {
+            shared: true
+        },
+        series: [{
+            name: 'Volume Sold',
+            data: [
+                <% sales_history_quantities.each_value do |v| %>
+                <%= v %>,
+                <% end %>
+            ],
+            yAxis: 0,
+            },{
+            name: 'Revenue generated',
+            data: [
+                <% sales_history_revenue.each_value do |v| %>
+                <%= v.round(2) %>,
+                <% end %>
+            ],
+            yAxis: 1,
+        }]
+    });
+});

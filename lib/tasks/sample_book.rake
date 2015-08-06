@@ -3,7 +3,7 @@ require 'faker'
 namespace :db do
   desc "Fill books table with books"
   task :populate_books => :environment do
-    20.times do
+    60.times do
       Book.create(
         :name => Faker::Lorem.word,
         :year => Faker::Number.number(4),

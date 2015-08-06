@@ -25,4 +25,8 @@ class Subgenre < ActiveRecord::Base
 
   validates :genre_id, :presence => true
 
+  def count_books_in_subgenre
+    self.books.count
+  end
+
 end

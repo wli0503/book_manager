@@ -54,6 +54,16 @@ class Book < ActiveRecord::Base
     end
   end
 
+  def total_volume_sold_cache_key
+    "book.#{id}.total_volume"
+  end
+
+  def total_volume_sold
+    Rails.cache.fetch(total_volume_sold_cache_key) do
+      self.order_details.sum(:quantity)
+    end
+  end
+
   def to_s
     name
   end
