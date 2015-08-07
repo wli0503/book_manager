@@ -4,8 +4,9 @@ source 'https://rubygems.org'
 #Self import section
 gem 'protected_attributes'
 gem 'annotate'
-
 gem 'faker'
+gem 'rails-perftest'
+gem 'ruby-prof'
 
 group :development, :test do
   gem "rspec-rails"

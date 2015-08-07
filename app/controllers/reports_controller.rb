@@ -9,7 +9,7 @@ class ReportsController < ApplicationController
   def find_total_volume
     _genre_to_volume = Hash.new(0)
     _subgenre_to_volume = Hash.new{ |h, k| h[k]=Hash.new(&h.default_proc) }
-
+ 
     genres = Genre.includes(:subgenres)
 
     genres.each do |genre_elem|
