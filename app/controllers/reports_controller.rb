@@ -1,6 +1,6 @@
 class ReportsController < ApplicationController
   def index
-    @volume = find_total_volume
+    @volume = find_total_volume_test
     @sales_history = generate_sales_history
     @highest_rating = find_highest_rating
     @best_seller_by_volume = find_best_seller_by_volume
@@ -17,6 +17,19 @@ class ReportsController < ApplicationController
       genre_elem.subgenres.each do |subgenre_elem|
         _subgenre_to_volume[genre_elem.name]["#{subgenre_elem.name}_#{subgenre_elem.id.to_s}"] =
           subgenre_elem.count_books_in_subgenre
+      end
+    end
+    [_genre_to_volume, _subgenre_to_volume]
+  end
+
+
+  def find_total_volume_test
+    _genre_to_volume = Hash.new(0)
+    _subgenre_to_volume = Hash.new{ |h, k| h[k]=Hash.new(&h.default_proc) }
+    Genre.find_each do |genre_elem|
+      _genre_to_volume[genre_elem.name] = genre_elem.count_books_in_genre
+      genre_elem.subgenres.each do |subgenre_elem|
+        _subgenre_to_volume[genre_elem.name]["#{subgenre_elem.name}_#{subgenre_elem.id.to_s}"] = subgenre_elem.count_books_in_subgenre
       end
     end
     [_genre_to_volume, _subgenre_to_volume]
