@@ -15,7 +15,6 @@ class BooksController < ApplicationController
 
   def update
     @book.update_attributes(params[:book])
-    expire_action :action => :index
   end
 
   def show
@@ -23,7 +22,6 @@ class BooksController < ApplicationController
 
   def destroy
     @book.destroy
-    expire_action :action => :index
   end
 
   def index

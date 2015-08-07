@@ -25,8 +25,15 @@ class Subgenre < ActiveRecord::Base
 
   validates :genre_id, :presence => true
 
+  def count_books_in_subgenre_key
+    "subgenre_#{id}_total_books"
+  end
+
+
   def count_books_in_subgenre
-    self.books.count
+    Rails.cache.fetch(count_books_in_subgenre_key) do
+      self.books.count
+    end
   end
 
 end

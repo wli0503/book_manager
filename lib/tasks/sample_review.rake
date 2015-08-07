@@ -7,7 +7,7 @@ namespace :db do
       Review.create(
         :reader_id => Reader.offset(rand(Reader.count)).first.id,
         :book_id => Book.offset(rand(Book.count)).first.id,
-        :rating => (Random.rand(1..5))
+        :rating => (Random.rand(20.0..100.00) / 20.0)
       )
       end
     end

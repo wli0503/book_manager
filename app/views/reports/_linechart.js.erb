@@ -15,7 +15,7 @@ $(function () {
         xAxis: {
             categories: [
                 <% sales_history_quantities.each_key do |k, v| %>
-                "<%= k %>",
+                "<%= k.split("_")[0] %>",
                 <% end %>
             ]
         },

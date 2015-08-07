@@ -55,7 +55,7 @@ $(function () {
         data: [
           <% subgenre_to_volume[genre_k].each do |subgenre_k, subgenre_v| %>
                 <% next if subgenre_v == 0 %>
-                ["<%= subgenre_k %>", <%= subgenre_v %>],
+                ["<%= subgenre_k.split("_")[0] %>", <%= subgenre_v %>],
           <% end %>
         ]
       },

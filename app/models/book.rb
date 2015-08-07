@@ -44,6 +44,20 @@ class Book < ActiveRecord::Base
     end
   end
 
+  after_save :invalid_books_in_genre_cache
+  after_destroy :invalid_books_in_genre_cache
+
+  after_save :invalid_books_in_subgenre_cache
+  after_destroy :invalid_books_in_subgenre_cache
+
+  def invalid_books_in_genre_cache
+    Rails.cache.delete(genre.count_books_in_genre_key)
+  end
+
+  def invalid_books_in_subgenre_cache
+    Rails.cache.delete(subgenre.count_books_in_subgenre_key)
+  end
+
   def avg_rating_cache_key
     "book.#{id}.avg_rating"
   end

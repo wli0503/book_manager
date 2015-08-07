@@ -24,7 +24,7 @@
     <tbody>
       <% highest_rating.each do |k, v| %>
       <tr>
-        <td><%= k %></td>
+        <td><%= k.split("_")[0] %></td>
         <td><%= v %></td>
       </tr>
       <% end %>
@@ -42,7 +42,7 @@
     <tbody>
       <% best_seller_by_volume.each do |k, v| %>
         <tr>
-          <td><%= k %></td>
+          <td><%= k.split("_")[0] %></td>
           <td><%= v %></td>
         </tr>
       <% end %>
