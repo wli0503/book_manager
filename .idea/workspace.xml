@@ -2,232 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c50970b2-831d-4134-9096-e3775416f6f8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/44E/CF0/Authors.all" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7B6/BE0/book.1.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7B7/CD0/book.2.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7B8/DC0/book.3.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7B9/EB0/book.4.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7BA/FA0/book.5.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7BB/090/book.6.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7BC/180/book.7.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7BD/270/book.8.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7BE/360/book.9.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7E6/990/book.10.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7E7/A80/book.11.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7E7/A90/book.20.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7E8/B70/book.12.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7E8/B80/book.21.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7E8/B90/book.30.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7E9/C60/book.13.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7E9/C70/book.22.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7E9/C80/book.31.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7E9/C90/book.40.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7EA/D50/book.14.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7EA/D60/book.23.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7EA/D70/book.32.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7EA/D80/book.41.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7EA/D90/book.50.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7EB/E40/book.15.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7EB/E50/book.24.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7EB/E60/book.33.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7EB/E70/book.42.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7EB/E80/book.51.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7EB/E90/book.60.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7EC/F30/book.16.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7EC/F40/book.25.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7EC/F50/book.34.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7EC/F60/book.43.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7EC/F70/book.52.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7ED/020/book.17.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7ED/030/book.26.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7ED/040/book.35.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7ED/050/book.44.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7ED/060/book.53.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7EE/110/book.18.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7EE/120/book.27.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7EE/130/book.36.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7EE/140/book.45.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7EE/150/book.54.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7EF/200/book.19.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7EF/210/book.28.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7EF/220/book.37.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7EF/230/book.46.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7EF/240/book.55.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7F0/300/book.29.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7F0/310/book.38.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7F0/320/book.47.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7F0/330/book.56.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7F1/400/book.39.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7F1/410/book.48.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7F1/420/book.57.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7F2/500/book.49.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7F2/510/book.58.total_revenue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/cache/7F3/600/book.59.total_revenue" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/041482b1dcb07ffb2abd409be1f459c9" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/041482b1dcb07ffb2abd409be1f459c9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/164554b0cd8a0c5bbc610521a87cf19e" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/164554b0cd8a0c5bbc610521a87cf19e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/188fdfd6817802c1abaf7996f79d25b2" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/188fdfd6817802c1abaf7996f79d25b2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/1d6969e3f3a7a562c3cd7f00a0c854a3" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/1d6969e3f3a7a562c3cd7f00a0c854a3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/1e9500cbc5320ab9f9b0ae3e7747ed78" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/1e9500cbc5320ab9f9b0ae3e7747ed78" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/2402f5cbeb259c1b7a03f6a0ff074adb" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/2402f5cbeb259c1b7a03f6a0ff074adb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/28169a01038b15391555cfd651b98e49" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/28169a01038b15391555cfd651b98e49" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/3740b3ca419a4dd475e97d269fcf35ad" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/3740b3ca419a4dd475e97d269fcf35ad" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/41e8cfc0941fafe3de26b0bc82a149e1" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/41e8cfc0941fafe3de26b0bc82a149e1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/57b6e9e967c22a3174febc33edea3a12" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/57b6e9e967c22a3174febc33edea3a12" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/5f73a0689e55272065de27d711f3c9ae" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/5f73a0689e55272065de27d711f3c9ae" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/6ce651fca154ec17bf2c3cf496cd257e" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/6ce651fca154ec17bf2c3cf496cd257e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/8220fe96374435c870af921e025d5aa9" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/8220fe96374435c870af921e025d5aa9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/8bf3b4dc68961bcdd3939a7d2bbaf868" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/8bf3b4dc68961bcdd3939a7d2bbaf868" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/90a37a428795452c218cebc3e4283717" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/90a37a428795452c218cebc3e4283717" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/90ed9cb01f00ff9ac7f4bddc324a3563" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/90ed9cb01f00ff9ac7f4bddc324a3563" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/9fe3a3308aaa4e98688d77b9b22111a4" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/9fe3a3308aaa4e98688d77b9b22111a4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/a2430b7e47411d65d241a9d10ba195c2" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/a2430b7e47411d65d241a9d10ba195c2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/ad862bc6dc062dee9cfa3bed48c52233" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/ad862bc6dc062dee9cfa3bed48c52233" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/b89389f88fa65b48911aae9c509aeb0c" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/b89389f88fa65b48911aae9c509aeb0c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/bd4386f04f3eddd2086a613d4981a5e0" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/bd4386f04f3eddd2086a613d4981a5e0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/bd9966c9db0a167ec8717d1a37f4ba19" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/bd9966c9db0a167ec8717d1a37f4ba19" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/65B/1A0/book.1.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/65B/1A0/book.1.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/754/480/book.1.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/754/480/book.1.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/68B/650/book.10.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/68B/650/book.10.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/784/F30/book.10.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/784/F30/book.10.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/68C/710/book.11.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/68C/710/book.11.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/785/010/book.11.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/785/010/book.11.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/68D/7D0/book.12.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/68D/7D0/book.12.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/786/0F0/book.12.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/786/0F0/book.12.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/68E/890/book.13.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/68E/890/book.13.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/787/1D0/book.13.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/787/1D0/book.13.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/68F/950/book.14.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/68F/950/book.14.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/788/2B0/book.14.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/788/2B0/book.14.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/690/A10/book.15.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/690/A10/book.15.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/789/390/book.15.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/789/390/book.15.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/691/AD0/book.16.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/691/AD0/book.16.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/78A/470/book.16.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/78A/470/book.16.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/692/B90/book.17.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/692/B90/book.17.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/78B/550/book.17.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/78B/550/book.17.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/693/C50/book.18.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/693/C50/book.18.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/78C/630/book.18.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/78C/630/book.18.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/694/D10/book.19.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/694/D10/book.19.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/78D/710/book.19.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/78D/710/book.19.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/65C/260/book.2.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/65C/260/book.2.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/755/560/book.2.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/755/560/book.2.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/68C/720/book.20.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/68C/720/book.20.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/785/020/book.20.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/785/020/book.20.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/68D/7E0/book.21.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/68D/7E0/book.21.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/786/100/book.21.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/786/100/book.21.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/68E/8A0/book.22.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/68E/8A0/book.22.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/787/1E0/book.22.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/787/1E0/book.22.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/68F/960/book.23.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/68F/960/book.23.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/788/2C0/book.23.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/788/2C0/book.23.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/690/A20/book.24.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/690/A20/book.24.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/789/3A0/book.24.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/789/3A0/book.24.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/691/AE0/book.25.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/691/AE0/book.25.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/78A/480/book.25.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/78A/480/book.25.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/692/BA0/book.26.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/692/BA0/book.26.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/78B/560/book.26.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/78B/560/book.26.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/693/C60/book.27.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/693/C60/book.27.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/78C/640/book.27.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/78C/640/book.27.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/694/D20/book.28.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/694/D20/book.28.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/78D/720/book.28.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/78D/720/book.28.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/695/DE0/book.29.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/695/DE0/book.29.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/78E/800/book.29.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/78E/800/book.29.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/65D/320/book.3.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/65D/320/book.3.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/756/640/book.3.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/756/640/book.3.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/68D/7F0/book.30.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/68D/7F0/book.30.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/786/110/book.30.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/786/110/book.30.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/68E/8B0/book.31.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/68E/8B0/book.31.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/787/1F0/book.31.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/787/1F0/book.31.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/68F/970/book.32.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/68F/970/book.32.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/788/2D0/book.32.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/788/2D0/book.32.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/690/A30/book.33.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/690/A30/book.33.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/789/3B0/book.33.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/789/3B0/book.33.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/691/AF0/book.34.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/691/AF0/book.34.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/78A/490/book.34.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/78A/490/book.34.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/692/BB0/book.35.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/692/BB0/book.35.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/78B/570/book.35.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/78B/570/book.35.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/693/C70/book.36.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/693/C70/book.36.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/78C/650/book.36.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/78C/650/book.36.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/694/D30/book.37.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/694/D30/book.37.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/78D/730/book.37.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/78D/730/book.37.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/695/DF0/book.38.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/695/DF0/book.38.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/78E/810/book.38.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/78E/810/book.38.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/696/EB0/book.39.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/696/EB0/book.39.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/78F/8F0/book.39.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/78F/8F0/book.39.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/65E/3E0/book.4.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/65E/3E0/book.4.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/757/720/book.4.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/757/720/book.4.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/68E/8C0/book.40.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/68E/8C0/book.40.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/787/200/book.40.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/787/200/book.40.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/68F/980/book.41.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/68F/980/book.41.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/788/2E0/book.41.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/788/2E0/book.41.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/690/A40/book.42.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/690/A40/book.42.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/789/3C0/book.42.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/789/3C0/book.42.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/691/B00/book.43.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/691/B00/book.43.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/78A/4A0/book.43.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/78A/4A0/book.43.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/692/BC0/book.44.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/692/BC0/book.44.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/78B/580/book.44.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/78B/580/book.44.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/693/C80/book.45.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/693/C80/book.45.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/78C/660/book.45.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/78C/660/book.45.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/694/D40/book.46.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/694/D40/book.46.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/78D/740/book.46.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/78D/740/book.46.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/695/E00/book.47.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/695/E00/book.47.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/78E/820/book.47.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/78E/820/book.47.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/696/EC0/book.48.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/696/EC0/book.48.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/78F/900/book.48.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/78F/900/book.48.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/697/F80/book.49.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/697/F80/book.49.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/790/9E0/book.49.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/790/9E0/book.49.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/65F/4A0/book.5.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/65F/4A0/book.5.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/758/800/book.5.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/758/800/book.5.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/68F/990/book.50.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/68F/990/book.50.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/788/2F0/book.50.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/788/2F0/book.50.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/690/A50/book.51.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/690/A50/book.51.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/789/3D0/book.51.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/789/3D0/book.51.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/691/B10/book.52.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/691/B10/book.52.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/78A/4B0/book.52.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/78A/4B0/book.52.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/692/BD0/book.53.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/692/BD0/book.53.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/78B/590/book.53.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/78B/590/book.53.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/693/C90/book.54.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/693/C90/book.54.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/78C/670/book.54.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/78C/670/book.54.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/694/D50/book.55.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/694/D50/book.55.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/78D/750/book.55.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/78D/750/book.55.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/695/E10/book.56.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/695/E10/book.56.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/78E/830/book.56.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/78E/830/book.56.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/696/ED0/book.57.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/696/ED0/book.57.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/78F/910/book.57.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/78F/910/book.57.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/697/F90/book.58.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/697/F90/book.58.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/790/9F0/book.58.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/790/9F0/book.58.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/698/050/book.59.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/698/050/book.59.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/791/AD0/book.59.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/791/AD0/book.59.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/660/560/book.6.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/660/560/book.6.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/759/8E0/book.6.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/759/8E0/book.6.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/690/A60/book.60.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/690/A60/book.60.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/789/3E0/book.60.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/789/3E0/book.60.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/661/620/book.7.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/661/620/book.7.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/75A/9C0/book.7.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/75A/9C0/book.7.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/662/6E0/book.8.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/662/6E0/book.8.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/75B/AA0/book.8.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/75B/AA0/book.8.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/663/7A0/book.9.avg_rating" afterPath="$PROJECT_DIR$/tmp/cache/663/7A0/book.9.avg_rating" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/75C/B80/book.9.total_volume" afterPath="$PROJECT_DIR$/tmp/cache/75C/B80/book.9.total_volume" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/cffc42c5f591ef4ab1f692829ab5d80c" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/cffc42c5f591ef4ab1f692829ab5d80c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/d771ace226fc8215a3572e0aa35bb0d6" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/d771ace226fc8215a3572e0aa35bb0d6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/e4a667cbf4d1bee115ff5d5494378503" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/e4a667cbf4d1bee115ff5d5494378503" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/e5713fd74da7cb1248a30ad8524fed85" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/e5713fd74da7cb1248a30ad8524fed85" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/e69199128e4827285ab3d660b3e9258c" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/e69199128e4827285ab3d660b3e9258c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/ed2c0a87cfde514b19bda98b7fb385a7" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/ed2c0a87cfde514b19bda98b7fb385a7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/f2d34568efb5305d6990b1502d8c6ff7" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/f2d34568efb5305d6990b1502d8c6ff7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/f2f86d12a62b14aa25daab31bd27cd60" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/f2f86d12a62b14aa25daab31bd27cd60" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/f7cbd26ba1d28d48de824f0e94586655" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/f7cbd26ba1d28d48de824f0e94586655" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/fe7bce9bb779c38deb41a72def405d3b" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/fe7bce9bb779c38deb41a72def405d3b" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/reports/_genrepiechart.js.erb" afterPath="$PROJECT_DIR$/app/views/reports/_genrepiechart.js.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/reports/_linechart.js.erb" afterPath="$PROJECT_DIR$/app/views/reports/_linechart.js.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/book.rb" afterPath="$PROJECT_DIR$/app/models/book.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/books_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/books_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/genre.rb" afterPath="$PROJECT_DIR$/app/models/genre.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/reports/index.html.erb" afterPath="$PROJECT_DIR$/app/views/reports/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/reports_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/reports_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/sample_genre.rake" afterPath="$PROJECT_DIR$/lib/tasks/sample_genre.rake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/sample_review.rake" afterPath="$PROJECT_DIR$/lib/tasks/sample_review.rake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/subgenre.rb" afterPath="$PROJECT_DIR$/app/models/subgenre.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="book_manager.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -258,8 +33,8 @@
       <file leaf-file-name="reports_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/reports_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8757485">
-              <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.9206587">
+              <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -328,9 +103,9 @@
         <option value="$PROJECT_DIR$/app/views/reports/_genrepiechart.js.erb" />
         <option value="$PROJECT_DIR$/lib/tasks/sample_review.rake" />
         <option value="$PROJECT_DIR$/lib/tasks/sample_genre.rake" />
-        <option value="$PROJECT_DIR$/app/controllers/reports_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/reports/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/reports/_linechart.js.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/reports_controller.rb" />
       </list>
     </option>
   </component>
@@ -1205,8 +980,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/reports_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8757485">
-          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.9206587">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
           <folding />
         </state>
       </provider>
