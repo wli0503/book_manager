@@ -1,11 +1,11 @@
 class ReportsController < ApplicationController
   def index
-    @volume = find_total_volume_test
+    @volume = find_total_volume
     @sales_history = generate_sales_history
     @highest_rating = find_highest_rating
     @best_seller_by_volume = find_best_seller_by_volume
   end
-  
+
   def find_total_volume
     _genre_to_volume = Hash.new(0)
     _subgenre_to_volume = Hash.new{ |h, k| h[k]=Hash.new(&h.default_proc) }

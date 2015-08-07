@@ -28,4 +28,6 @@ BookManager::Application.configure do
   config.assets.debug = true
 
   config.cache_store = :memory_store, { size: 64.megabytes }
+
+  config.middleware.insert 0, "Rack::RequestProfiler", :printer => ::RubyProf::CallTreePrinter
 end

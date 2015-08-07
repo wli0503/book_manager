@@ -71,3 +71,4 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+gem 'request_profiler', :git => 'git://github.com/cheald/request_profiler.git'

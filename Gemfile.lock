@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/cheald/request_profiler.git
+  revision: 1ddb93c8712b1baebc0c028463f7723781877584
+  specs:
+    request_profiler (0.0.2)
+      ruby-prof
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -215,6 +222,7 @@ DEPENDENCIES
   protected_attributes
   rails (= 4.0.7)
   rails-perftest
+  request_profiler!
   rspec-rails
   ruby-prof
   sass-rails (~> 4.0.2)
