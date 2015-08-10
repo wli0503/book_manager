@@ -21,7 +21,6 @@ class Genre < ActiveRecord::Base
   validates :desc, :presence => true,
       :length => { :maximum => 200}
 
-
   def count_books_in_genre_key
     "genre_#{id}_total_books"
   end

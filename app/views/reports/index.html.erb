@@ -4,32 +4,33 @@
 <script src = "http://code.highcharts.com/modules/exporting.js"></script>
 <script src="http://code.highcharts.com/modules/drilldown.js"></script>
 
+<!-- Additional files for the Highslide popup effect -->
+<script src="http://www.highcharts.com/joomla/media/com_demo/js/highslide-full.min.js"></script>
+<script src="http://www.highcharts.com/joomla/media/com_demo/js/highslide.config.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="http://www.highcharts.com/joomla/media/com_demo/highslide.css" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" type="text/css" />
+
 <%
-  genre_to_volume ||= @volume[0]
-  subgenre_to_volume ||= @volume[1]
-  sales_history_quantities ||= @sales_history[0]
-  sales_history_revenue ||= @sales_history[1]
-  highest_rating ||= @highest_rating
-  best_seller_by_volume ||= @best_seller_by_volume
+   # MEMO: Render highest_rating first
+  table_items ||= @highest_rating
 %>
 <html>
   <table border = "1" id = "rate_table">
     <thead>
-      <caption>Highest Rated</caption>
-      <tr>
-        <th>Book Name</th>
-        <th>Rate</th>
-      </tr>
+    <caption>Highest Rated</caption>
+    <tr>
+      <th>Book Name</th>
+      <th>Rate</th>
+    </tr>
     </thead>
-    <tbody>
-      <% highest_rating.each do |k, v| %>
-      <tr>
-        <td><%= k.split("_")[0] %></td>
-        <td><%= v %></td>
-      </tr>
-      <% end %>
-    </tbody>
+    <%= render "table_item", :table_items => table_items %>
   </table>
+
+  <% table_items = @best_seller_by_volume %>
 
   <table border = "1" id = "sale_table">
     <thead>
@@ -39,20 +40,15 @@
         <th>Volume sold</th>
       </tr>
     </thead>
-    <tbody>
-      <% best_seller_by_volume.each do |k, v| %>
-        <tr>
-          <td><%= k.split("_")[0] %></td>
-          <td><%= v %></td>
-        </tr>
-      <% end %>
-    </tbody>
+    <%= render "table_item", :table_items => table_items %>
   </table>
 
   <script>
     <%= render 'genrepiechart.js.erb' %>
     <%= render 'linechart.js.erb' %>
+    <%= render 'genrepiechart_test.js.erb' %>
   </script>
   <div id="genre_pie_chart_container" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
+  <div id="genre_pie_chart_container_test" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
   <div id="line_chart_container" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
 </html>

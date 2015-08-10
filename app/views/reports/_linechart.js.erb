@@ -10,7 +10,7 @@ $(function () {
         },
         title: {
             text: 'Sales Report by book',
-            x: -20 //center
+            x: 0 //center
         },
         xAxis: {
             categories: [
@@ -28,6 +28,7 @@ $(function () {
                 x: 3,
                 y: 16
             },
+            min: 0,
         }, {
             opposite: true,
             title: {
@@ -38,6 +39,7 @@ $(function () {
                 x: -3,
                 y: 16,
             },
+            min: 0,
         }],
         legend: {
             layout: 'vertical',

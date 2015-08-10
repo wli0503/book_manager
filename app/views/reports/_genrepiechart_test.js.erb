@@ -1,0 +1,93 @@
+<%
+  genre_to_volume ||= @volume[0]
+  subgenre_to_volume ||= @volume[1]
+%>
+$(function () {
+  function pointClick(items){
+    var parsed_JSON = JSON.parse(items);
+    var data_array = new Array();
+
+    for(var key in parsed_JSON){
+      if(parsed_JSON[key] == 0) continue;
+      data_array.push(new Array(key, parsed_JSON[key]));
+    }
+
+    $div = $('<div></div>')
+    .dialog({
+      title: this.name,
+      width: 400,
+      height: 300
+    });
+
+    window.chart = new Highcharts.Chart({
+      chart: {
+        renderTo: $div[0],
+        type: 'pie',
+      },
+      tooltip: {
+        pointFormat: '{series.name}: <b>{point.y}</b>'
+      },
+      plotOptions: {
+        series:{
+          dataLabels: {
+            enabled: true,
+            format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+            style: {
+              color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+            },
+          },
+        },
+      },
+      title: {
+        text: 'Number of books belong to the subgenre'
+      },
+      series:[{
+        data: data_array
+      }],
+    });
+  };
+
+  $('#genre_pie_chart_container_test').highcharts({
+  chart: {
+    type: 'pie',
+  },
+  tooltip: {
+    pointFormat: '{series.name}: <b>{point.y}</b>'
+  },
+  plotOptions: {
+    series:{
+      dataLabels: {
+        enabled: true,
+        format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+        style: {
+          color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+        },
+      },
+    },
+  },
+  title: {
+    text: 'Number of books belong to the Genre'
+  },
+  series: [{
+    name: "",
+    colorByPoint: true,
+    point: {
+      events:{
+        click: function(event){
+          pointClick(this.series.data[this.x]["subgenre_to_volume"]);
+        }
+      }
+    },
+    data: [
+      <% genre_to_volume.each do |k, v| %>
+      <% next if v == 0 %>
+      {
+        name: "<%= k %>",
+        y: <%= v %>,
+        subgenre_to_volume: '<%= raw(subgenre_to_volume[k].to_json) %>',
+      },
+      <% end %>
+    ]
+  }],
+  });
+});

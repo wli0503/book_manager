@@ -1,0 +1,44 @@
+
+<%
+  genre_to_volume ||= @volume[0]
+  subgenre_to_volume ||= @volume[1]
+  sales_history_quantities ||= @sales_history[0]
+  sales_history_revenue ||= @sales_history[1]
+  highest_rating ||= @highest_rating
+  best_seller_by_volume ||= @best_seller_by_volume
+%>
+  <table border = "1" id = "rate_table">
+    <thead>
+      <caption>Highest Rated</caption>
+      <tr>
+        <th>Book Name</th>
+        <th>Rate</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% highest_rating.each do |k, v| %>
+      <tr>
+        <td><%= k.split("_")[0] %></td>
+        <td><%= v %></td>
+      </tr>
+      <% end %>
+    </tbody>
+  </table>
+
+  <table border = "1" id = "sale_table">
+    <thead>
+      <caption>Best Seller</caption>
+      <tr>
+        <th>Book Name</th>
+        <th>Volume sold</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% best_seller_by_volume.each do |k, v| %>
+        <tr>
+          <td><%= k.split("_")[0] %></td>
+          <td><%= v %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
