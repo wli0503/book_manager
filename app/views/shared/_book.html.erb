@@ -1,0 +1,39 @@
+<% books ||= @books %>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="
+  https://cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
+</head>
+
+<body>
+  <div class="list" id="recent_list">
+    <p>recently viewed books</p>
+    # TODO: Overwrite this potion with items
+  </div>
+
+
+  <div class="list" id="books_list">
+    <input type="text" class="search" style="width: 100px"/>
+    <ul class="list" size=6 style="height: 200px; overflow: auto; width: 100px; list-style-type: none;">
+      <% books.each do |book| %>
+      <li><%= link_to("#{book.name}", edit_book_path(book), :remote=>true, :class=>"book_name") %></li>
+      <% end %>
+    </ul>
+  </div>
+  
+  <script>
+  var bookList = new List(
+    'books_list',
+    {
+      valueNames: ['book_name'],
+      plugins: [ ]
+    }
+  );
+  </script>
+
+</body>
+
+</html>
