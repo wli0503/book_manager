@@ -42,6 +42,7 @@ class ReportsController < ApplicationController
     sales_history_quantity = Hash.new(0)
     sales_history_revenue = Hash.new(0)
 
+
     Book.includes(:order_details).find_each do |book|
       book.order_details.each do |od|
         sales_history_quantity["#{book.name}_#{book.id}"] += od.quantity

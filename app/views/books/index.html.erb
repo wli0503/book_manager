@@ -1,6 +1,13 @@
 <html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="
+https://cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
+</head>
 <%= render "index" %>
+<script><%= render "book_list.js" %></script>
 <%= link_to "Add", new_book_path, remote: true %>
 
-<div id="form_container"></div>
+<div id="form_container">
+</div>
 </html>

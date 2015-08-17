@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>RubyCritic</title>
+    <link href="../assets/stylesheets/application.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+    <link href="../assets/stylesheets/prettify.custom_theme.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header class="project-header group">
+      <div class="container">
+        <h1 class="logo"><a href="../overview.html" class="logo-link">RubyCritic</a></h1>
+        <nav class="project-nav">
+          <a href="../overview.html" class="project-nav-item">Overview</a>
+          <a href="../code_index.html" class="project-nav-item">Code</a>
+          <a href="../smells_index.html" class="project-nav-item">Smells</a>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+      <div class="file-header group rated">
+  <span class="rating rating-a circled-text circle">
+    A
+  </span>
+  <h2 class="file-name">ReportsController</h2>
+
+  <span class="file-committed-at">
+    
+      Updated <time class='js-timeago' datetime='2015-08-10 14:47:28 -0400'>2015-08-10 14:47:28 -0400</time>
+    
+  </span>
+
+  <div class="file-stats group">
+    <div class="file-stat">
+      66 complexity
+    </div>
+    <div class="file-stat">
+      13.2 complexity per method
+    </div>
+    <div class="file-stat">
+      9 churn
+    </div>
+    <div class="file-stat">
+      5 methods
+    </div>
+    <div class="file-stat">
+      0 duplication
+    </div>
+  </div>
+
+  
+    <button id="js-toggle-smells" class="smells-toggle-button button">Toggle Smells</button>
+  
+</div>
+
+<code class="prettyprint linenums lang-ruby file-code js-file-code">class ReportsController &lt; ApplicationController
+  def index
+    @volume = find_total_volume
+    @sales_history = generate_sales_history
+    @highest_rating = find_highest_rating
+    @best_seller_by_volume = find_best_seller_by_volume
+  end
+
+  # TODO: Clean up this function. Explain about why don&#39;t use this(.each[N + 1 query problem])
+  #   Also, if we use .all.each, we run into memory problems where we consume too much memory
+  #   For loading the whole table in to the memory
+  # def find_total_volume_slow
+  #   _genre_to_volume = Hash.new(0)
+  #   _subgenre_to_volume = Hash.new{ |h, k| h[k]=Hash.new(&amp;h.default_proc) }
+  #
+  #   genres = Genre.all
+  #
+  #   genres.each do |genre_elem|
+  #     _genre_to_volume[genre_elem.name] = genre_elem.count_books_in_genre
+  #     genre_elem.subgenres.each do |subgenre_elem|
+  #       _subgenre_to_volume[genre_elem.name][&quot;#{subgenre_elem.name}_#{subgenre_elem.id.to_s}&quot;] =
+  #         subgenre_elem.count_books_in_subgenre
+  #     end
+  #   end
+  #   [_genre_to_volume, _subgenre_to_volume]
+  # end
+
+  # TODO: Figure out why this one is better(batch + associate_query{eager loaded!})
+  def find_total_volume<ul class="nocode smells js-smells">  <li class="smell old">    <span class="description">(FeatureEnvy) ReportsController#find_total_volume refers to genre_elem more than self          </span>  </li></ul>
+    _genre_to_volume = Hash.new(0)
+    _subgenre_to_volume = Hash.new{ |h, k| h[k]=Hash.new(&amp;h.default_proc) }<ul class="nocode smells js-smells">  <li class="smell old">    <span class="description">(UncommunicativeVariableName) ReportsController#find_total_volume has the variable name 'h'          </span>  </li>  <li class="smell old">    <span class="description">(UncommunicativeVariableName) ReportsController#find_total_volume has the variable name 'k'          </span>  </li></ul>
+    Genre.includes(:subgenres).find_each do |genre_elem|
+      _genre_to_volume[genre_elem.name] = genre_elem.count_books_in_genre
+      genre_elem.subgenres.each do |subgenre_elem|
+        _subgenre_to_volume[genre_elem.name][&quot;#{subgenre_elem.name}_#{subgenre_elem.id}&quot;] = subgenre_elem.count_books_in_subgenre
+      end
+    end
+    [_genre_to_volume, _subgenre_to_volume]
+  end
+
+  def generate_sales_history<ul class="nocode smells js-smells">  <li class="smell old">    <span class="description">(FeatureEnvy) ReportsController#generate_sales_history refers to book more than self          </span>  </li></ul>
+    sales_history_quantity = Hash.new(0)
+    sales_history_revenue = Hash.new(0)
+
+    Book.includes(:order_details).find_each do |book|
+      book.order_details.each do |od|
+        sales_history_quantity[&quot;#{book.name}_#{book.id}&quot;] += od.quantity
+        sales_history_revenue[&quot;#{book.name}_#{book.id}&quot;] += od.quantity * od.unit_price
+      end
+    end
+    [sales_history_quantity, sales_history_revenue]
+  end
+
+  def find_highest_rating<ul class="nocode smells js-smells">  <li class="smell old">    <span class="description">(FeatureEnvy) ReportsController#find_highest_rating refers to book more than self          </span>  </li></ul>
+    #byebug
+    highest_rating = Hash.new(0)
+    Book.find_each do |book|
+      avg_review = book.avg_rating
+      next if avg_review.nil?<ul class="nocode smells js-smells">  <li class="smell old">    <span class="description">(NilCheck) ReportsController#find_highest_rating performs a nil-check.          </span>  </li></ul>
+      highest_rating[&quot;#{book.name}_#{book.id}&quot;] = avg_review
+    end
+    highest_rating.sort_by{|k, v| v}.reverse[0..4]<ul class="nocode smells js-smells">  <li class="smell old">    <span class="description">(UncommunicativeVariableName) ReportsController#find_highest_rating has the variable name 'k'          </span>  </li>  <li class="smell old">    <span class="description">(UncommunicativeVariableName) ReportsController#find_highest_rating has the variable name 'v'          </span>  </li></ul>
+  end
+
+  def find_best_seller_by_volume<ul class="nocode smells js-smells">  <li class="smell old">    <span class="description">(FeatureEnvy) ReportsController#find_best_seller_by_volume refers to book more than self          </span>  </li></ul>
+    best_seller_by_volume = Hash.new(0)
+    Book.find_each do |book|
+      best_seller_by_volume[&quot;#{book.name}_#{book.id}&quot;] += book.total_volume_sold
+    end
+    best_seller_by_volume.sort_by{ |k, v| v}.reverse[0..4]<ul class="nocode smells js-smells">  <li class="smell old">    <span class="description">(UncommunicativeVariableName) ReportsController#find_best_seller_by_volume has the variable name 'k'          </span>  </li>  <li class="smell old">    <span class="description">(UncommunicativeVariableName) ReportsController#find_best_seller_by_volume has the variable name 'v'          </span>  </li></ul>
+  end
+
+end
+</code>
+
+    </div>
+    <script src='../assets/javascripts/jquery-2.1.0.js'></script>
+    <script src='../assets/javascripts/jquery.tablesorter.js'></script>
+    <script src='../assets/javascripts/jquery.floatThead-v1.2.7.js'></script>
+    <script src='../assets/javascripts/jquery.timeago-v1.4.1.js'></script>
+    <script src='../assets/javascripts/highcharts.src-4.0.1.js'></script>
+    <script src='../assets/javascripts/jquery.scrollTo-1.4.11.js'></script>
+    <script src='../assets/javascripts/prettify-4-Mar-2013.js'></script>
+    <script src='../assets/javascripts/application.js'></script>
+  </body>
+</html>

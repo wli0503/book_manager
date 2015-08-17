@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>RubyCritic</title>
+    <link href="../assets/stylesheets/application.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+    <link href="../assets/stylesheets/prettify.custom_theme.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header class="project-header group">
+      <div class="container">
+        <h1 class="logo"><a href="../overview.html" class="logo-link">RubyCritic</a></h1>
+        <nav class="project-nav">
+          <a href="../overview.html" class="project-nav-item">Overview</a>
+          <a href="../code_index.html" class="project-nav-item">Code</a>
+          <a href="../smells_index.html" class="project-nav-item">Smells</a>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+      <div class="file-header group rated">
+  <span class="rating rating-a circled-text circle">
+    A
+  </span>
+  <h2 class="file-name">Author</h2>
+
+  <span class="file-committed-at">
+    
+      Updated <time class='js-timeago' datetime='2015-08-06 14:53:48 -0400'>2015-08-06 14:53:48 -0400</time>
+    
+  </span>
+
+  <div class="file-stats group">
+    <div class="file-stat">
+      15 complexity
+    </div>
+    <div class="file-stat">
+      3.0 complexity per method
+    </div>
+    <div class="file-stat">
+      4 churn
+    </div>
+    <div class="file-stat">
+      5 methods
+    </div>
+    <div class="file-stat">
+      0 duplication
+    </div>
+  </div>
+
+  
+    <button id="js-toggle-smells" class="smells-toggle-button button">Toggle Smells</button>
+  
+</div>
+
+<code class="prettyprint linenums lang-ruby file-code js-file-code"># == Schema Information
+#
+# Table name: authors
+#
+#  id         :integer          not null, primary key
+#  first_name :string(255)
+#  last_name  :string(255)
+#  DOB        :string(255)
+#  created_at :datetime
+#  updated_at :datetime
+#
+
+class Author &lt; ActiveRecord::Base
+  has_many :books, :inverse_of =&gt; :author, :dependent =&gt; :destroy
+
+  attr_accessible :first_name, :last_name, :DOB, :name
+
+  validates :first_name, :presence =&gt; true,
+      :length =&gt; { :maximum =&gt; 100}
+  validates :last_name, :presence =&gt; true,
+      :length =&gt; { :maximum =&gt; 100}
+  validates :DOB, :presence =&gt; true,
+      :length =&gt; { :is =&gt; 10}
+
+  after_save :expire_author_cached
+  after_destroy :expire_author_cached
+
+  def name
+    &quot;#{first_name} #{last_name}&quot;
+  end
+
+  def name=(n)<ul class="nocode smells js-smells">  <li class="smell old">    <span class="description">(UncommunicativeParameterName) Author#name= has the parameter name 'n'          </span>  </li></ul>
+    x,y = n.split(&#39; &#39;)<ul class="nocode smells js-smells">  <li class="smell old">    <span class="description">(UncommunicativeVariableName) Author#name= has the variable name 'x'          </span>  </li>  <li class="smell old">    <span class="description">(UncommunicativeVariableName) Author#name= has the variable name 'y'          </span>  </li></ul>
+    self.first_name = x
+    self.last_name = y
+    self.first_name &amp;&amp; self.last_name
+  end
+
+  def to_s
+    name
+  end
+
+  def self.all_cached
+    Rails.cache.fetch(&#39;Authors.all&#39;) do
+      all
+    end
+  end
+
+  private
+
+  def expire_author_cached
+    Rails.cache.delete(&#39;Author.all&#39;)
+  end
+
+
+end
+</code>
+
+    </div>
+    <script src='../assets/javascripts/jquery-2.1.0.js'></script>
+    <script src='../assets/javascripts/jquery.tablesorter.js'></script>
+    <script src='../assets/javascripts/jquery.floatThead-v1.2.7.js'></script>
+    <script src='../assets/javascripts/jquery.timeago-v1.4.1.js'></script>
+    <script src='../assets/javascripts/highcharts.src-4.0.1.js'></script>
+    <script src='../assets/javascripts/jquery.scrollTo-1.4.11.js'></script>
+    <script src='../assets/javascripts/prettify-4-Mar-2013.js'></script>
+    <script src='../assets/javascripts/application.js'></script>
+  </body>
+</html>

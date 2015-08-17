@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>RubyCritic</title>
+    <link href="../assets/stylesheets/application.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+    <link href="../assets/stylesheets/prettify.custom_theme.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header class="project-header group">
+      <div class="container">
+        <h1 class="logo"><a href="../overview.html" class="logo-link">RubyCritic</a></h1>
+        <nav class="project-nav">
+          <a href="../overview.html" class="project-nav-item">Overview</a>
+          <a href="../code_index.html" class="project-nav-item">Code</a>
+          <a href="../smells_index.html" class="project-nav-item">Smells</a>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+      <div class="file-header group rated">
+  <span class="rating rating-a circled-text circle">
+    A
+  </span>
+  <h2 class="file-name">Book</h2>
+
+  <span class="file-committed-at">
+    
+      Updated <time class='js-timeago' datetime='2015-08-07 14:35:05 -0400'>2015-08-07 14:35:05 -0400</time>
+    
+  </span>
+
+  <div class="file-stats group">
+    <div class="file-stat">
+      33 complexity
+    </div>
+    <div class="file-stat">
+      4.1 complexity per method
+    </div>
+    <div class="file-stat">
+      7 churn
+    </div>
+    <div class="file-stat">
+      8 methods
+    </div>
+    <div class="file-stat">
+      0 duplication
+    </div>
+  </div>
+
+  
+</div>
+
+<code class="prettyprint linenums lang-ruby file-code js-file-code"># == Schema Information
+#
+# Table name: books
+#
+#  id           :integer          not null, primary key
+#  name         :string(255)
+#  year         :string(255)
+#  created_at   :datetime
+#  updated_at   :datetime
+#  author_id    :integer
+#  subgenre_id  :integer
+#  publisher_id :integer
+#  price        :float
+#
+
+class Book &lt; ActiveRecord::Base
+  attr_accessible :name, :year, :author_id, :subgenre_id, :publisher_id, :price, :genre_id
+
+  belongs_to :author, :inverse_of =&gt; :books
+  belongs_to :subgenre, :inverse_of =&gt; :books
+  belongs_to :genre, :inverse_of=&gt; :books
+  belongs_to :publisher, :inverse_of =&gt; :books
+  has_many :order_details, :inverse_of =&gt; :book, :dependent =&gt; :destroy
+  has_many :price_histories, :inverse_of =&gt; :book, :dependent =&gt; :destroy
+  has_many :reviews, :inverse_of =&gt; :book, :dependent =&gt; :destroy
+
+  #delegate :genre, :to =&gt; :subgenre
+
+  validates :name, :presence =&gt; true,
+            :length =&gt; { :maximum =&gt; 200 }
+  validates :year, :presence =&gt; true,
+            :length =&gt; { :minimum =&gt; 1 , :maximum =&gt; 4}
+  validates :author_id, :presence =&gt; true
+  validates :subgenre_id, :presence =&gt; true
+  validates :publisher_id, :presence =&gt; true
+  validates :price, :presence =&gt; true,
+                    :numericality =&gt; true
+
+  before_save :record_old_price
+
+  before_save do |rec|
+    if rec.subgenre_id_changed?
+      rec.genre_id = rec.subgenre.genre_id
+    end
+  end
+
+  after_save :invalid_books_in_genre_cache
+  after_destroy :invalid_books_in_genre_cache
+
+  after_save :invalid_books_in_subgenre_cache
+  after_destroy :invalid_books_in_subgenre_cache
+
+  def invalid_books_in_genre_cache
+    Rails.cache.delete(genre.count_books_in_genre_key)
+  end
+
+  def invalid_books_in_subgenre_cache
+    Rails.cache.delete(subgenre.count_books_in_subgenre_key)
+  end
+
+  def avg_rating_cache_key
+    &quot;book.#{id}.avg_rating&quot;
+  end
+
+  def avg_rating
+    Rails.cache.fetch(avg_rating_cache_key) do
+      reviews.average(:rating)
+    end
+  end
+
+  def total_volume_sold_cache_key
+    &quot;book.#{id}.total_volume&quot;
+  end
+
+  def total_volume_sold
+    Rails.cache.fetch(total_volume_sold_cache_key) do
+      self.order_details.sum(:quantity)
+    end
+  end
+
+  def to_s
+    name
+  end
+
+  private
+
+  def record_old_price
+    if(!(new_record?) &amp;&amp; price_changed?)
+      PriceHistory.create(:book_id =&gt; self.id, :old_price =&gt; price_was, :new_price =&gt; price)
+    end
+    true
+  end
+
+end
+</code>
+
+    </div>
+    <script src='../assets/javascripts/jquery-2.1.0.js'></script>
+    <script src='../assets/javascripts/jquery.tablesorter.js'></script>
+    <script src='../assets/javascripts/jquery.floatThead-v1.2.7.js'></script>
+    <script src='../assets/javascripts/jquery.timeago-v1.4.1.js'></script>
+    <script src='../assets/javascripts/highcharts.src-4.0.1.js'></script>
+    <script src='../assets/javascripts/jquery.scrollTo-1.4.11.js'></script>
+    <script src='../assets/javascripts/prettify-4-Mar-2013.js'></script>
+    <script src='../assets/javascripts/application.js'></script>
+  </body>
+</html>
